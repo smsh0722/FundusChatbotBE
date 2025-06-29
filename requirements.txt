@@ -1,0 +1,12 @@
+Flask
+flask-cors
+flask-session
+torch
+Pillow
+torchvision
+python-dotenv
+werkzeug
+groq
+flask-caching
+redis
+google-genai

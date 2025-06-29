@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PyTorch / TensorFlow Model files
+*.pth
+*.pt
+*.h5
+
+# Log or temp files
+*.log
+*.tmp
+
+# Static/media files (선택)
+static/
+
+# Personal folders (예: client 코드 제외 시)
+client/
