@@ -168,7 +168,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 # Updated function to get the LLM response using Groq
 def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None, is_image_upload=False):
     # Simplified system message
-    system_message = (
+    system_prompt = (
         "You are a helpful and knowledgeable medical assistant specialized in ophthalmology. "
         "Provide factual answers from a medical perspective. "
         "Ensure the information is accurate and easy to understand. "
@@ -176,12 +176,9 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         "You must not answer queries unrelated to health, medicine, or overall well-being."
     )
 
-    # Prepare messages for chat completion
-    messages = [{"role": "system", "content": system_message}]
-
     # Include chat history, limiting to the last 5 messages
     if chat_history:
-        messages.extend(chat_history[-5:])
+        prompt = chat_history[-1]['content']
 
     # Generate the prompt based on the diagnosis
     if is_image_upload:
@@ -222,21 +219,76 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         else:
             prompt = (
                 "A patient is diagnosed with the following condition(s):\n"
-                f"{chr(10).join(prompt_parts)}\n"
-                "Provide a detailed medical report that includes recommended treatment options, lifestyle changes, possible outcomes, and future prognosis for each condition."
+                f"{chr(10).join(prompt_parts)}\n\n"
+                "Please generate a medical report in this exact structure below.\n"
+                "Each section MUST use this format:\n\n"
+                "## Section Name\n"
+                "----------------\n"
+                "- Bullet 1\n"
+                "- Bullet 2\n\n"
+                "Only use this structure. Do not use bold (**), numbered lists (1., 2.), or other formatting.\n"
+                "Respond in plain text only. Do NOT use HTML, markdown bolding, italics, or emojis.\n\n"
+                "Use the following exact headings and order:\n\n"
+                "## Diagnosis Summary\n"
+                "--------------------\n"
+                "- One-paragraph explanation of the condition.\n\n"
+                "## Potential Causes\n"
+                "-------------------\n"
+                "- Cause 1: description\n"
+                "- Cause 2: description\n\n"
+                "## Recommended Tests\n"
+                "--------------------\n"
+                "- Test 1: description\n"
+                "- Test 2: description\n\n"
+                "## Treatment Options\n"
+                "--------------------\n"
+                "- Option 1: description\n"
+                "- Option 2: description\n\n"
+                "## Lifestyle Suggestions\n"
+                "------------------------\n"
+                "- Suggestion 1: description\n"
+                "- Suggestion 2: description\n\n"
+                "## Prognosis\n"
+                "------------\n"
+                "- Outcome 1: description\n"
+                "- Outcome 2: description\n\n"
+                "## Important Disclaimer\n"
+                "-----------------------\n"
+                "- Always include this: This report is for general educational purposes only and does not replace professional medical advice."
             )
 
-        messages.append({"role": "user", "content": prompt})
+
     elif chat_history:
         # If not an image upload, rely on the existing chat history
         pass
     else:
         return "No input provided."
 
-    print(f"Generated Messages: {messages}")  # For debugging
+    history_text = ""
+    if chat_history and not is_image_upload:
+        recent_history = chat_history[-5:]
+        for msg in recent_history:
+            role = msg['role'].capitalize()
+            content = msg['content']
+            history_text += f"{role}: {content}\n"
+
+    if history_text:
+        full_prompt = f"{system_prompt}\n\n{history_text}\nUser: {prompt}"
+    else:
+        full_prompt = f"{system_prompt}\n\nUser: {prompt}"
+        
+    print(f"Generated Messages: {full_prompt}")  # For debugging
 
     # Generate text using the Groq API
     try:
+        response = client.models.generate_content(
+            model="gemma-3-4b-it", # "gemma-3-27b-it" or "gemma-3-4b-it"
+            contents=full_prompt
+        )
+        response_text = response.text.strip()
+        print(f"gemma response: {response_text}")
+        return response_text
+        '''
         response = client.chat.completions.create(
             messages=messages,
             model="llama3-8b-8192"
@@ -248,7 +300,7 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         soup = BeautifulSoup(response_text, 'html.parser')
         clean_response_text = soup.get_text()
         print(f"Cleaned LLM Response: {clean_response_text}")  # For debugging
-
+        '''
     except Exception as e:
         print(f"Error during text generation: {e}")
         return "Error during text generation."
