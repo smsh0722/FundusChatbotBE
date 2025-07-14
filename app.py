@@ -309,31 +309,35 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
 
 # Custom function to generate a cache key based on the request body (prompt)
 def make_cache_key():
-    if request.json and 'prompt' in request.json:
-        prompt = request.json['prompt'].strip().lower()  # Normalize prompt
-        return md5(prompt.encode('utf-8')).hexdigest()
+    if request.json and 'prompt' in request.json and 'chatId' in request.json:
+        raw = f"{request.json['chatId']}::{request.json['prompt'].strip().lower()}"
+        return md5(raw.encode('utf-8')).hexdigest()
     return None
 
 @app.route('/api/chat', methods=['POST'])
 @cache.cached(timeout=300, key_prefix=make_cache_key)  # Cache using a custom key based on the prompt
 def handle_chat():
-    if request.json and 'prompt' in request.json:
+    if request.json and 'prompt' in request.json and 'chatId' in request.json:
         user_prompt = request.json['prompt']
-
+        user_chatId = request.json['chatId']
+        session_key = f"chat_history_{user_chatId}"
+        
+        print(f"\n [DEBUG] chatId: {user_chatId}\n") # DEBUG
+        
         # Check if the prompt is health-related
         if not is_health_related(user_prompt):
             return jsonify({"response": "I can only assist with medical and health-related inquiries."}), 200
 
-        session['chat_history'] = session.get('chat_history', [])
-        session['chat_history'].append({'role': 'user', 'content': user_prompt})
+        session[session_key] = session.get(session_key, [])
+        session[session_key].append({'role': 'user', 'content': user_prompt})
 
         # Get the LLM response with chat history
-        llm_response = get_llm_response([], [], chat_history=session['chat_history'])
+        llm_response = get_llm_response([], [], chat_history=session[session_key])
 
         # Append the LLM response to the chat history with role 'assistant'
-        session['chat_history'].append({'role': 'assistant', 'content': llm_response})
+        session[session_key].append({'role': 'assistant', 'content': llm_response})
 
-        return jsonify({"response": llm_response, "chat_history": session['chat_history']})
+        return jsonify({"response": llm_response, "chat_history": session[session_key]})
     
     return jsonify({"error": "Invalid input"}), 400
 
@@ -342,6 +346,10 @@ def handle_chat():
 def handle_upload():
     # Extract the user message if available
     message = request.form.get('message', '')
+    chatId = request.form.get('chatId', '')
+    session_key = f"chat_history_{chatId}"
+    
+    print(f"\n[Debug]: ChatId: {chatId}\n") # DEBUG
 
     # Check if the message is health-related if present
     if message and not is_health_related(message):
@@ -437,9 +445,9 @@ def handle_upload():
             diagnosis_text += f"{eye_label.capitalize()} Eye: {diagnosis}\n"
 
     # Update chat history
-    session['chat_history'] = session.get('chat_history', [])
+    session[session_key] = session.get(session_key, [])
     user_message = f"Uploaded images diagnosed with:\n{diagnosis_text}"
-    session['chat_history'].append({'role': 'user', 'content': user_message})
+    session[session_key].append({'role': 'user', 'content': user_message})
 
     # Get the LLM response with chat history
     # Prepare left and right diseases, using None if the eye was not uploaded
@@ -450,17 +458,17 @@ def handle_upload():
     llm_response = get_llm_response(
     left_diseases=left_diseases,
     right_diseases=right_diseases,
-    chat_history=session['chat_history'],
+    chat_history=session[session_key],
     is_image_upload=True
     )
 
     # Append the LLM response to the chat history
-    session['chat_history'].append({'role': 'assistant', 'content': llm_response})
+    session[session_key].append({'role': 'assistant', 'content': llm_response})
 
     # Include diagram URLs in the response
     response_data = {
         "diagnosis": llm_response,
-        "chat_history": session['chat_history']
+        "chat_history": session[session_key]
     }
     if 'left' in predicted_diseases:
         response_data['left_eye'] = {
