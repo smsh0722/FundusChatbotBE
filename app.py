@@ -277,7 +277,7 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
     else:
         full_prompt = f"{system_prompt}\n\nUser: {prompt}"
         
-    print(f"Generated Messages: {full_prompt}")  # For debugging
+    # print(f"Generated Messages: {full_prompt}")  # For debug
 
     # Generate text using the Groq API
     try:
@@ -286,7 +286,7 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
             contents=full_prompt
         )
         response_text = response.text.strip()
-        print(f"gemma response: {response_text}")
+        # print(f"gemma response: {response_text}") # debug
         return response_text
         '''
         response = client.chat.completions.create(
@@ -309,14 +309,20 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
 
 # Custom function to generate a cache key based on the request body (prompt)
 def make_cache_key():
-    if request.json and 'prompt' in request.json and 'chatId' in request.json:
-        raw = f"{request.json['chatId']}::{request.json['prompt'].strip().lower()}"
-        return md5(raw.encode('utf-8')).hexdigest()
+    try:
+        data = request.get_json(force=True)  # 이걸로 강제 파싱
+        if data and 'prompt' in data and 'chatId' in data:
+            raw = f"{data['chatId']}::{data['prompt'].strip().lower()}"
+            return md5(raw.encode('utf-8')).hexdigest()
+    except Exception as e:
+        print(f"[Cache Key Error]: {e}")
     return None
 
 @app.route('/api/chat', methods=['POST'])
 @cache.cached(timeout=300, key_prefix=make_cache_key)  # Cache using a custom key based on the prompt
 def handle_chat():
+    data = request.get_json(force=True)
+    print(f"[DEBUG] Raw JSON: {data}") # DEBUG
     if request.json and 'prompt' in request.json and 'chatId' in request.json:
         user_prompt = request.json['prompt']
         user_chatId = request.json['chatId']
