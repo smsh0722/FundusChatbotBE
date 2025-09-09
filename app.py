@@ -15,6 +15,7 @@ from flask_session import Session
 from redis import Redis
 from bs4 import BeautifulSoup
 from google import genai
+import numpy as np
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -24,6 +25,10 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 app.secret_key = os.getenv('FLASK_SECRET_KEY')
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
+HEATMAP_FOLDER = 'static/heatmaps/'
+
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+os.makedirs(HEATMAP_FOLDER, exist_ok=True)
 
 # Initialize the cache
 cache = Cache(config={'CACHE_TYPE': 'simple'})  # Simple in-memory cache
@@ -126,6 +131,131 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
+
+class GradCAM:
+    def __init__(self, model: nn.Module, target_module: nn.Module):
+        self.model = model
+        self.target_module = target_module
+        self.activations = None
+        self.gradients = None
+
+        # Forward hook to capture activations
+        self.fwd_hook = self.target_module.register_forward_hook(self._save_activation)
+        # Backward hook to capture gradients
+        # Use full backward hook for proper behavior in recent PyTorch
+        self.bwd_hook = self.target_module.register_full_backward_hook(self._save_gradient)
+
+    def _save_activation(self, module, inp, out):
+        # out: [B, C, H, W]
+        self.activations = out.detach()
+
+    def _save_gradient(self, module, grad_input, grad_output):
+        # grad_output[0]: [B, C, H, W]
+        self.gradients = grad_output[0].detach()
+
+    def remove_hooks(self):
+        try:
+            self.fwd_hook.remove()
+        except Exception:
+            pass
+        try:
+            self.bwd_hook.remove()
+        except Exception:
+            pass
+
+    def __del__(self):
+        self.remove_hooks()
+
+    def generate(self, input_tensor: torch.Tensor, target_index: int):
+        """Generate Grad-CAM for a single input and target class index.
+        input_tensor: [1, 3, H, W]
+        returns numpy array [H_feat, W_feat] normalized to [0,1] but we will upsample later.
+        """
+        self.model.zero_grad()
+        output = self.model(input_tensor)  # logits
+        if output.ndim == 2:
+            score = output[0, target_index]
+        else:
+            score = output.squeeze()[target_index]
+
+        # Compute probability for this class (after sigmoid)
+        prob = torch.sigmoid(score).item()
+
+        score.backward(retain_graph=True)
+
+        # activations/gradients captured at target layer
+        activations = self.activations  # [1, C, h, w]
+        gradients = self.gradients      # [1, C, h, w]
+        if activations is None or gradients is None:
+            raise RuntimeError('Grad-CAM hooks did not capture activations/gradients')
+
+        activations = activations[0]  # [C, h, w]
+        gradients = gradients[0]      # [C, h, w]
+
+        # Global-average-pool the gradients over spatial dims -> weights per channel
+        weights = gradients.mean(dim=(1, 2))  # [C]
+        cam = torch.zeros_like(activations[0])  # [h, w]
+        for i, w in enumerate(weights):
+            cam += w * activations[i]
+
+        cam = torch.relu(cam)
+        cam_np = cam.cpu().numpy()
+        if cam_np.max() > 1e-8:
+            cam_np = cam_np / cam_np.max()
+        else:
+            cam_np = np.zeros_like(cam_np)
+        return cam_np, prob
+
+
+def overlay_heatmap_on_image(
+    pil_image: Image.Image,
+    heatmap: np.ndarray,
+    alpha: float = 0.65,
+    colormap: str = 'jet',
+    clip_low: float = 0.2,
+    gamma: float = 0.5,
+) -> Image.Image:
+    """Overlay a vivid heatmap onto the original image.
+    - Per-pixel alpha weighting: stronger overlay where heat is high
+    - Contrast boost: clip lower portion and apply gamma for sharper look
+    - Colormap: 'jet' (default) or 'red'
+    heatmap expected in [0,1] with shape [H, W], resized to image size before call.
+    """
+    img = np.array(pil_image).astype(np.float32)
+    if img.max() > 1.0:
+        img = img / 255.0
+
+    h = np.clip(heatmap, 0.0, 1.0)
+    # Contrast boost: clip lower tail and apply gamma
+    if clip_low > 0:
+        h = np.clip((h - clip_low) / max(1e-6, (1.0 - clip_low)), 0.0, 1.0)
+    if gamma != 1.0:
+        h = np.power(h, gamma)
+
+    colored = np.zeros((*h.shape, 3), dtype=np.float32)
+    if colormap == 'red':
+        colored[..., 0] = h
+    else:
+        # JET colormap: vivid blue->green->yellow->red
+        r = np.clip(1.5 - np.abs(4 * h - 3), 0.0, 1.0)
+        g = np.clip(1.5 - np.abs(4 * h - 2), 0.0, 1.0)
+        b = np.clip(1.5 - np.abs(4 * h - 1), 0.0, 1.0)
+        colored[..., 0] = r
+        colored[..., 1] = g
+        colored[..., 2] = b
+
+    # Per-pixel alpha weighting
+    a = (alpha * h)[..., None]
+    overlaid = (1.0 - a) * img + a * colored
+    overlaid = np.clip(overlaid * 255.0, 0, 255).astype(np.uint8)
+    return Image.fromarray(overlaid)
+
+
+def ensure_size_match(heatmap: np.ndarray, size: tuple[int, int]) -> np.ndarray:
+    """Resize heatmap (H, W) to size (W, H) using simple numpy/PIL."""
+    h_img = Image.fromarray((heatmap * 255).astype(np.uint8))
+    h_img = h_img.resize(size, resample=Image.BILINEAR)
+    return np.array(h_img).astype(np.float32) / 255.0
 
 # Define class-to-disease mapping and treatment mapping
 class_to_disease = {
@@ -383,6 +513,7 @@ def handle_upload():
 
     # Process uploaded files and eye labels
     images = {}
+    filepaths = {}
     for file, eye_label in zip(uploaded_files, eye_labels):
         filename = secure_filename(file.filename)
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
@@ -393,6 +524,7 @@ def handle_upload():
             image = Image.open(filepath).convert('RGB')
             image = transform(image)
             images[eye_label.lower()] = image
+            filepaths[eye_label.lower()] = filepath
         except Exception as e:
             return jsonify({"error": f"Error processing image '{filename}': {e}"}), 400
 
@@ -442,6 +574,56 @@ def handle_upload():
                 diagrams.append(diagram_url)
         diagram_urls[eye_label] = diagrams
 
+    # Generate Grad-CAM heatmaps per class for each eye
+    heatmap_urls = {}
+    try:
+        # Use the last conv block of ResNet50
+        target_module = single_image_model.model.layer4
+        gradcam = GradCAM(single_image_model, target_module)
+        single_image_model.eval()
+
+        num_classes = 8
+        for eye_label in images:
+            image_tensor = images[eye_label].unsqueeze(0)
+            # Keep a reference to original image
+            original = Image.open(filepaths[eye_label]).convert('RGB')
+            orig_size = original.size  # (W, H)
+
+            class_heatmap_urls = []
+            for class_idx in range(num_classes):
+                cam_small, cls_prob = gradcam.generate(image_tensor.clone(), class_idx)
+                # Probability threshold: below -> transparent
+                tau = float(threshold)
+                if float(cls_prob) < tau:
+                    cam_resized = ensure_size_match(np.zeros_like(cam_small), orig_size)
+                else:
+                    # Boost visibility while retaining prob influence
+                    prob_scale = ((float(cls_prob) - tau) / max(1e-6, 1.0 - tau)) ** 0.5  # gamma boost
+                    cam_scaled = cam_small * prob_scale
+                    cam_resized = ensure_size_match(cam_scaled, orig_size)
+                overlaid = overlay_heatmap_on_image(original, cam_resized, alpha=0.7, colormap='jet', clip_low=0.15, gamma=0.6)
+
+                # Save heatmap image
+                base = os.path.splitext(os.path.basename(filepaths[eye_label]))[0]
+                safe_class = str(class_idx)
+                out_name = f"{base}_{eye_label}_class{safe_class}.png"
+                out_path = os.path.join(HEATMAP_FOLDER, out_name)
+                overlaid.save(out_path)
+
+                url = url_for('static', filename=f"heatmaps/{out_name}", _external=True)
+                class_heatmap_urls.append({
+                    "class_index": class_idx,
+                    "class_name": class_to_disease.get(class_idx, str(class_idx)),
+                    "url": url,
+                    "probability": cls_prob,
+                })
+            heatmap_urls[eye_label] = class_heatmap_urls
+        gradcam.remove_hooks()
+    except Exception as e:
+        # If grad-cam fails, continue without heatmaps
+        heatmap_urls = {eye: [] for eye in images.keys()}
+        print(f"Grad-CAM generation error: {e}")
+
     # Prepare the diagnosis text
     diagnosis_text = ""
     for eye_label in ['left', 'right']:
@@ -479,12 +661,14 @@ def handle_upload():
     if 'left' in predicted_diseases:
         response_data['left_eye'] = {
             "diagnosis": ', '.join(predicted_diseases['left']) if predicted_diseases['left'] else 'No detectable diseases',
-            "diagrams": diagram_urls.get('left', [])
+            "diagrams": diagram_urls.get('left', []),
+            "heatmaps": heatmap_urls.get('left', [])
         }
     if 'right' in predicted_diseases:
         response_data['right_eye'] = {
             "diagnosis": ', '.join(predicted_diseases['right']) if predicted_diseases['right'] else 'No detectable diseases',
-            "diagrams": diagram_urls.get('right', [])
+            "diagrams": diagram_urls.get('right', []),
+            "heatmaps": heatmap_urls.get('right', [])
         }
 
     return jsonify(response_data)

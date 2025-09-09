@@ -10,3 +10,4 @@ groq
 flask-caching
 redis
 google-genai
+numpy
