@@ -168,7 +168,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 # Updated function to get the LLM response using Groq
 def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None, is_image_upload=False):
     # Simplified system message
-    system_message = (
+    system_prompt = (
         "You are a helpful and knowledgeable medical assistant specialized in ophthalmology. "
         "Provide factual answers from a medical perspective. "
         "Ensure the information is accurate and easy to understand. "
@@ -176,12 +176,9 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         "You must not answer queries unrelated to health, medicine, or overall well-being."
     )
 
-    # Prepare messages for chat completion
-    messages = [{"role": "system", "content": system_message}]
-
     # Include chat history, limiting to the last 5 messages
     if chat_history:
-        messages.extend(chat_history[-5:])
+        prompt = chat_history[-1]['content']
 
     # Generate the prompt based on the diagnosis
     if is_image_upload:
@@ -222,21 +219,76 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         else:
             prompt = (
                 "A patient is diagnosed with the following condition(s):\n"
-                f"{chr(10).join(prompt_parts)}\n"
-                "Provide a detailed medical report that includes recommended treatment options, lifestyle changes, possible outcomes, and future prognosis for each condition."
+                f"{chr(10).join(prompt_parts)}\n\n"
+                "Please generate a medical report in this exact structure below.\n"
+                "Each section MUST use this format:\n\n"
+                "## Section Name\n"
+                "----------------\n"
+                "- Bullet 1\n"
+                "- Bullet 2\n\n"
+                "Only use this structure. Do not use bold (**), numbered lists (1., 2.), or other formatting.\n"
+                "Respond in plain text only. Do NOT use HTML, markdown bolding, italics, or emojis.\n\n"
+                "Use the following exact headings and order:\n\n"
+                "## Diagnosis Summary\n"
+                "--------------------\n"
+                "- One-paragraph explanation of the condition.\n\n"
+                "## Potential Causes\n"
+                "-------------------\n"
+                "- Cause 1: description\n"
+                "- Cause 2: description\n\n"
+                "## Recommended Tests\n"
+                "--------------------\n"
+                "- Test 1: description\n"
+                "- Test 2: description\n\n"
+                "## Treatment Options\n"
+                "--------------------\n"
+                "- Option 1: description\n"
+                "- Option 2: description\n\n"
+                "## Lifestyle Suggestions\n"
+                "------------------------\n"
+                "- Suggestion 1: description\n"
+                "- Suggestion 2: description\n\n"
+                "## Prognosis\n"
+                "------------\n"
+                "- Outcome 1: description\n"
+                "- Outcome 2: description\n\n"
+                "## Important Disclaimer\n"
+                "-----------------------\n"
+                "- Always include this: This report is for general educational purposes only and does not replace professional medical advice."
             )
 
-        messages.append({"role": "user", "content": prompt})
+
     elif chat_history:
         # If not an image upload, rely on the existing chat history
         pass
     else:
         return "No input provided."
 
-    print(f"Generated Messages: {messages}")  # For debugging
+    history_text = ""
+    if chat_history and not is_image_upload:
+        recent_history = chat_history[-5:]
+        for msg in recent_history:
+            role = msg['role'].capitalize()
+            content = msg['content']
+            history_text += f"{role}: {content}\n"
+
+    if history_text:
+        full_prompt = f"{system_prompt}\n\n{history_text}\nUser: {prompt}"
+    else:
+        full_prompt = f"{system_prompt}\n\nUser: {prompt}"
+        
+    # print(f"Generated Messages: {full_prompt}")  # For debug
 
     # Generate text using the Groq API
     try:
+        response = client.models.generate_content(
+            model="gemma-3-4b-it", # "gemma-3-27b-it" or "gemma-3-4b-it"
+            contents=full_prompt
+        )
+        response_text = response.text.strip()
+        # print(f"gemma response: {response_text}") # debug
+        return response_text
+        '''
         response = client.chat.completions.create(
             messages=messages,
             model="llama3-8b-8192"
@@ -248,7 +300,7 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
         soup = BeautifulSoup(response_text, 'html.parser')
         clean_response_text = soup.get_text()
         print(f"Cleaned LLM Response: {clean_response_text}")  # For debugging
-
+        '''
     except Exception as e:
         print(f"Error during text generation: {e}")
         return "Error during text generation."
@@ -257,31 +309,41 @@ def get_llm_response(left_diseases=None, right_diseases=None, chat_history=None,
 
 # Custom function to generate a cache key based on the request body (prompt)
 def make_cache_key():
-    if request.json and 'prompt' in request.json:
-        prompt = request.json['prompt'].strip().lower()  # Normalize prompt
-        return md5(prompt.encode('utf-8')).hexdigest()
+    try:
+        data = request.get_json(force=True)  # 이걸로 강제 파싱
+        if data and 'prompt' in data and 'chatId' in data:
+            raw = f"{data['chatId']}::{data['prompt'].strip().lower()}"
+            return md5(raw.encode('utf-8')).hexdigest()
+    except Exception as e:
+        print(f"[Cache Key Error]: {e}")
     return None
 
 @app.route('/api/chat', methods=['POST'])
 @cache.cached(timeout=300, key_prefix=make_cache_key)  # Cache using a custom key based on the prompt
 def handle_chat():
-    if request.json and 'prompt' in request.json:
+    data = request.get_json(force=True)
+    print(f"[DEBUG] Raw JSON: {data}") # DEBUG
+    if request.json and 'prompt' in request.json and 'chatId' in request.json:
         user_prompt = request.json['prompt']
-
+        user_chatId = request.json['chatId']
+        session_key = f"chat_history_{user_chatId}"
+        
+        print(f"\n [DEBUG] chatId: {user_chatId}\n") # DEBUG
+        
         # Check if the prompt is health-related
         if not is_health_related(user_prompt):
             return jsonify({"response": "I can only assist with medical and health-related inquiries."}), 200
 
-        session['chat_history'] = session.get('chat_history', [])
-        session['chat_history'].append({'role': 'user', 'content': user_prompt})
+        session[session_key] = session.get(session_key, [])
+        session[session_key].append({'role': 'user', 'content': user_prompt})
 
         # Get the LLM response with chat history
-        llm_response = get_llm_response([], [], chat_history=session['chat_history'])
+        llm_response = get_llm_response([], [], chat_history=session[session_key])
 
         # Append the LLM response to the chat history with role 'assistant'
-        session['chat_history'].append({'role': 'assistant', 'content': llm_response})
+        session[session_key].append({'role': 'assistant', 'content': llm_response})
 
-        return jsonify({"response": llm_response, "chat_history": session['chat_history']})
+        return jsonify({"response": llm_response, "chat_history": session[session_key]})
     
     return jsonify({"error": "Invalid input"}), 400
 
@@ -290,6 +352,10 @@ def handle_chat():
 def handle_upload():
     # Extract the user message if available
     message = request.form.get('message', '')
+    chatId = request.form.get('chatId', '')
+    session_key = f"chat_history_{chatId}"
+    
+    print(f"\n[Debug]: ChatId: {chatId}\n") # DEBUG
 
     # Check if the message is health-related if present
     if message and not is_health_related(message):
@@ -385,9 +451,9 @@ def handle_upload():
             diagnosis_text += f"{eye_label.capitalize()} Eye: {diagnosis}\n"
 
     # Update chat history
-    session['chat_history'] = session.get('chat_history', [])
+    session[session_key] = session.get(session_key, [])
     user_message = f"Uploaded images diagnosed with:\n{diagnosis_text}"
-    session['chat_history'].append({'role': 'user', 'content': user_message})
+    session[session_key].append({'role': 'user', 'content': user_message})
 
     # Get the LLM response with chat history
     # Prepare left and right diseases, using None if the eye was not uploaded
@@ -398,17 +464,17 @@ def handle_upload():
     llm_response = get_llm_response(
     left_diseases=left_diseases,
     right_diseases=right_diseases,
-    chat_history=session['chat_history'],
+    chat_history=session[session_key],
     is_image_upload=True
     )
 
     # Append the LLM response to the chat history
-    session['chat_history'].append({'role': 'assistant', 'content': llm_response})
+    session[session_key].append({'role': 'assistant', 'content': llm_response})
 
     # Include diagram URLs in the response
     response_data = {
         "diagnosis": llm_response,
-        "chat_history": session['chat_history']
+        "chat_history": session[session_key]
     }
     if 'left' in predicted_diseases:
         response_data['left_eye'] = {
