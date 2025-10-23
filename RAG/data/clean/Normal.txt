@@ -1,0 +1,429 @@
+NLM Citation: Kolb H. Simple Anatomy of the Retina. 2005 May 1 
+[Updated 2012 Jan 31]. In: Kolb H, Fernandez E, Jones B, et al., editors. 
+Webvision: The Organization of the Retina and Visual System [Internet]. 
+Salt Lake City (UT): University of Utah Health Sciences Center; 1995-.
+Bookshelf URL: https://www.ncbi.nlm.nih.gov/books/
+
+Simple Anatomy of the Retina
+
+Helga Kolb, PhD 1
+
+Created: May 1, 2005; Updated: January 31, 2012.
+
+1. Overview
+
+When an ophthalmologist uses an ophthalmoscope to look into your eye he sees the following view of the retina 
+(Fig. 1).
+
+In the center of the retina is the optic nerve, a circular to oval white area measuring about 2 x 1.5 mm across. 
+From the center of the optic nerve radiate the major blood vessels of the retina. Approximately 17 degrees (4.5-5 
+mm), or two and half disc diameters to the left of the disc, can be seen the slightly oval-shaped, blood vessel-free 
+reddish spot, the fovea, which is at the center of the area known as the macula by ophthalmologists (Fig. 1). An 
+animation of the view from iris to retina can be seen in movie 1.
+
+A circular field of approximately 6 mm around the fovea is considered the central retina while beyond this is 
+peripheral retina stretching to the ora serrata, 21 mm from the center of the retina (fovea). The total retina is a 
+circular disc of between 30 and 40 mm diameter (1-3).
+
+The retina is approximately 0.5 mm thick and lines the back of the eye. The optic nerve contains the ganglion cell 
+axons running to the brain and, additionally, incoming blood vessels that open into the retina to vascularize the 
+retinal layers and neurons (Fig. 2). A radial section of a portion of the retina reveals that the ganglion cells (the 
+output neurons of the retina) lie innermost in the retina closest to the lens and front of the eye, and the 
+photosensors (the rods and cones) lie outermost in the retina against the pigment epithelium and choroid. Light 
+must, therefore, travel through the thickness of the retina before striking and activating the rods and cones (Fig. 
+2). Subsequently the absorbtion of photons by the visual pigment of the photoreceptors is translated into first a 
+biochemical message and then an electrical message that can stimulate all the succeeding neurons of the retina. 
+The retinal message concerning the photic input and some preliminary organization of the visual image into 
+several forms of sensation are transmitted to the brain from the spiking discharge pattern of the ganglion cells.
+
+A simplistic wiring diagram of the retina emphasizes only the sensory photoreceptors and the ganglion cells with 
+a few interneurons connecting the two cell types such as seen in figure 3.
+
+When an anatomist takes a vertical section of the retina and processes it for microscopic examination it becomes 
+obvious that the retina is much more complex and contains many more nerve cell types than the simplistic
+
+Author Affiliation: 1 Moran Eye Institute, University of Utah School of Medicine, Salt Lake City; Email: 
+Helga.kolb@hsc.utah.edu.
+
+Corresponding author.
+
+Copyright: © 2025 Webvision
+
+2
+Webvision
+
+scheme (above) had indicated. It is immediately obvious that there are many interneurons packed into the 
+central part of the section of retina intervening between the photoreceptors and the ganglion cells (Fig. 4).
+
+All vertebrate retinas are composed of three layers of nerve cell bodies and two layers of synapses (Fig. 5). The
+outer nuclear layer contains cell bodies of the rods and cones, the inner nuclear layer contains cell bodies of the 
+bipolar, horizontal and amacrine cells and the ganglion cell layer contains cell bodies of ganglion cells and 
+displaced amacrine cells. Dividing these nerve cell layers are two neuropils where synaptic contacts occur (Fig. 
+5).
+
+The first area of neuropil is the outer plexiform layer (OPL) where connections between rod and cones, and 
+vertically running bipolar cells and horizontally oriented horizontal cells occur (Figs. 6 and 7).
+
+The second neuropil of the retina, is the inner plexiform layer (IPL), and it functions as a relay station for the 
+vertical-information-carrying nerve cells, the bipolar cells, to connect to ganglion cells (Figs. 8 and 9). In 
+addition, different varieties of horizontally- and vertically-directed amacrine cells, interact in further networks to 
+influence and integrate the ganglion cell signals. It is at the culmination of all this neural processing in the IPL 
+that the message concerning the visual image is transmitted through ganglion cells to the brain along the optic 
+nerve.
+
+2. Central and peripheral retina compared
+
+Central retina close to the fovea is considerably thicker than peripheral retina (compare Figs. 10A with 10B). 
+This is due to the increased packing density of photoreceptors, particularly the cones, and their associated 
+bipolar and ganglion cells in central retina compared with peripheral retina.
+
+Central retina is cone-dominated retina whereas peripheral retina is rod-dominated. Thus in central retina the 
+cones are closely spaced and the rods fewer in number between the cones (Figs. 10A and 10B).
+
+The outer nuclear layer (ONL), composed of the cell bodies of the rods and cones, is about the same thickness in 
+central and peripheral retina. However in the peripheral retina the rod cell bodies outnumber the cone cell 
+bodies while the reverse is true for central retina. In central retina, the cones have oblique axons displacing their 
+cell bodies from their synaptic pedicles in the outer plexiform layer (OPL). These oblique axons, with 
+accompanying Müller cell processes, form a pale-staining fibrous-looking area known as the Henle fibre layer. 
+The latter layer is absent in peripheral retina.
+
+The inner nuclear layer (INL) is thicker in the central area of the retina compared with peripheral retina, due to a 
+greater density of cone-connecting second-order neurons (cone bipolar cells), smaller-field and more closely-
+spaced horizontal cells, and amacrine cells concerned with the cone pathways (Fig. 10). As we shall see later, 
+cone-connected circuits of neurons are less convergent in that fewer cones impinge on second order neurons, 
+than rods do in rod-connected pathways.
+
+A remarkable difference between central and peripheral retina can be seen in the relative thicknesses of the inner 
+plexiform layers (IPL), ganglion cell layers (GCL) and nerve fibre layers (NFL) (Figs. 10A and 10B). This is again 
+due to the greater numbers and increased packing-density of ganglion cells needed for the cone pathways in the 
+cone-dominant foveal retina as compared the rod-dominant peripheral retina. The greater number of ganglion 
+cells means more synaptic interaction in a thicker IPL and greater numbers of ganglion cell axons coursing to 
+the optic nerve in the nerve fibre layer (Fig. 10A).
+
+3. Müller glial cells
+
+Müller cells are the radial glial cells of the retina (Fig. 11). The outer limiting membrane (OLM) of the retina is 
+formed from adherens junctions between Müller cells and photoreceptor cell inner segments. The inner limiting
+
+Simple Anatomy of the Retina
+3
+
+Figure 1. A view of the retina seen through an ophthalmoscope.
+
+Movie 1. An animation from the iris to the retina.
+
+Download video
+
+4
+Webvision
+
+Figure 2. A drawing of a section through the human eye with a schematic enlargement of the retina.
+
+Figure 3. Simple diagram of the organization of the retina.
+
+membrane (ILM) of the retina is likewise composed of laterally contacting Müller cell end feet and associated 
+basement membrane constituents.
+
+The OLM forms a barrier between the subretinal space, into which the inner and outer segments of the 
+photoreceptors project to be in close association with the pigment epithelial layer behind the retina, and the 
+neural retina proper. The ILM is the inner surface of the retina bordering the vitreous humor and thereby 
+forming a diffusion barrier between neural retina and vitreous humor (Fig. 11).
+
+Simple Anatomy of the Retina
+5
+
+Figure 4. Light micrograph of a vertical section through central human retina.
+
+Throughout the retina the major blood vessels of the retinal vasculature supply the capillaries that run into the 
+neural tissue. Capillaries are found running through all parts of the retina from the nerve fibre layer to the outer 
+plexiform layer and even occasionally as high as in the outer nuclear layer. Nutrients from the vasculature of the 
+choriocapillaris behind the pigment epithelium layer supply the delicate photoreceptor layer.
+
+4. Foveal structure
+
+The center of the fovea is known as the foveal pit (1) and is a highly specialized region of the retina different
+again from central and peripheral retina we have considered so far. Radial sections of this small circular region 
+of retina measuring less than a quarter of a millimeter (200 μm) across are shown below for human (Fig. 12A) 
+and for monkey (Fig. 12B).
+
+6
+Webvision
+
+Figure 5. 3-D block of a portion of human retina.
+
+The foveal pit is an area where cone photoreceptors are concentrated at maximum density with exclusion of the 
+rods, and arranged at their most efficient packing density which is in a hexagonal mosaic. This is more clearly 
+seen in a tangential section through the foveal cone inner segments (Fig. 13).
+
+Below this central 200 μm diameter central foveal pit, the other layers of the retina are displaced concentrically 
+leaving only the thinnest sheet of retina consisting of the cone cells and some of their cell bodies. Radially 
+distorted but complete layering of the retina then appears gradually along the foveal slope (right and left sides of 
+Figs. 12a and 12b) until the rim of the fovea is made up of the displaced second- and third-order neurons related 
+to the central cones. Here the ganglion cells are piled into six layers so making this area, called the foveal rim or 
+parafovea (1), the thickest portion of the entire retina.
+
+Simple Anatomy of the Retina
+7
+
+Figure 6. 3-D block of retina with the outer plexiform layer (OPL) highlighted in red. .
+
+5. Macula lutea
+
+The whole foveal area including foveal pit, foveal slope, parafovea and perifovea is considered the macula of the 
+human eye. Familiar to ophthalmologists is a yellow pigmentation to the macular area known as the macula 
+lutea (Fig. 14).
+
+This pigmentation is the reflection from yellow screening pigments, the xanthophyll carotenoids zeaxanthin and 
+lutein (4), present in the cone axons of the Henle fibre layer. The macula lutea is thought to act as a short 
+wavelength filter, additional to that provided by the lens (5). As the fovea is the most essential part of the retina 
+for human vision, protective mechanisms for avoiding bright light and especially ultraviolet irradiation damage 
+are essential. For if the delicate cones of our fovea are destroyed, we become blind.
+
+The yellow pigment that forms the macula lutea in the fovea can be clearly demonstrated by viewing a section of 
+the fovea in the microscope with blue light (Fig. 15). The dark pattern in the foveal pit extending out to the edge 
+of the foveal slope is caused by the macular pigment distribution (6).
+
+8
+Webvision
+
+Figure 7. Light micrograph of a vertical section through the outer plexiform layer (OPL). Cone pedicles and rod spherules are the 
+synaptic terminals of cones and rods. The outer nuclear layer (ONL) contains the cell bodies of rods and cones. The inner nuclear layer 
+(INL) contains the cell bodies of horizontal cells, bipolar cells, and amacrine cells.
+
+If one were to visualize the foveal photoreceptor mosaic as though the visual pigments in the individual cones 
+were not bleached, one would see the picture shown in Figure 16 (lower frame) (picture from Lall and Cone, 
+1996). The short-wavelength sensitive cones on the foveal slope look pale yellow green, the middle wavelength 
+cones, pink and the long wavelength sensitive cones, purple. If we now add the effect of the yellow screening 
+pigment of the macula lutea we see the appearance of the cone mosaic in Figure 16 (upper frame). The macula 
+lutea helps enhance achromatic resolution of the foveal cones and blocks out harmful UV light irradiation (Fig. 
+16 from Abner Lall and Richard Cone, unpublished data).
+
+6. Blood supply to the retina
+
+There are two sources of blood supply to the mammalian retina: the central retinal artery and the choroidal 
+blood vessels. The choroid receives the greatest blood flow (65-85%) (7) and is vital for the maintainance of the 
+outer retina (particularly the photoreceptors) and the remaining 20-30% flows to the retina through the central 
+retinal artery from the optic nerve head to nourish the inner retinal layers. The central retinal artery has 4 main 
+branches in the human retina (Fig. 17).
+
+Simple Anatomy of the Retina
+9
+
+Figure 8. 3-D block of retina with the inner plexiform layer (IPL) highlighted in red.
+
+The arterial intraretinal branches then supply three layers of capillary networks i.e. 1) the radial peripapillary 
+capillaries (RPCs) and 2) an inner and 3) an outer layer of capillaries (Fig. 18A). The precapillary venules drain 
+into venules and through the corresponding venous system to the central retinal vein (Fig. 18B).
+
+The radial peripapillary capillaries (RPCs) are the most superfical layer of capillaries lying in the inner part of 
+the nerve fiber layer, and run along the paths of the major superotemporal and inferotemporal vessels 4-5 mm 
+from the optic disk (8). The RPCs anastomose with each other and the deeper capillaries. The inner capillaries lie 
+in the ganglion cell layers under and parallel to the RPCs. The outer capillary network runs from the inner 
+plexiform layer to the outer plexiform layer thought the inner nuclear layer (8).
+
+As will be noticed from the flourescein angiography of Figure 17, there is a ring of blood vessels in the macular 
+area around a blood vessel- and capillary-free zone 450-600 μm in diameter, surrounding the fovea. The macular 
+vessels arise from branches of the superior temporal and inferotemporal arteries. At the border of the avascular 
+zone the capillaries become two-layered and finally join as a single layered ring. The collecting venules are 
+deeper (posterior) to the arterioles and drain blood flow back into the main veins (Fig. 19). In the rhesus
+
+10
+Webvision
+
+Figure. 9. Light micrograph of a vertical section through the inner plexiform layer (IPL), highlighted in red. Amacrine cells and bipolar 
+cells lie above the IPL. Ganglion cells form the ganglion cell layer (GCL) which lies just below the IPL. Processes from all 3 cell types 
+interconnect within IPL circuitry.
+
+monkey this perimacular ring and blood vessel free fovea is clearly seen in the beautiful drawings made by Max 
+Snodderly's group (9) (Fig. 20).
+
+The choroidal arteries arise from long and short posterior ciliary arteries and branches of Zinn's circle (around 
+the optic disc). Each of the posterior ciliary arteries break up into fan-shaped lobules of capillaries that supply 
+localized regions of the choroid (10). The macular area of the choroidal vessels is not specialized like the retinal 
+blood supply is (8). The arteries pierce the sclera around the optic nerve and fan out to form the three vascular 
+layers in the choroid: outer (most scleral), medial and inner (nearest Bruch’s membrane of the pigment 
+epithelium) layers of blood vessels. This is clearly shown in the corrosion cast of a cut face of the human choroid 
+in figure 21A (8). The corresponding venous lobules drain into the venules and veins that run anterior towards 
+the equator of the eyeball to enter the vortex veins (Fig. 21b). One or two vortex veins drain each of the 4 
+quadrants of the eyeball. The vortex veins penetrate the sclera and merge into the ophthalmic vein as shown in 
+the corrosion cast of figure 21B (8).
+
+Simple Anatomy of the Retina
+11
+
+Figure 10. Different structure of central and peripheral human retina. A. In central retina the inner and outer plexiform layers (IPL, 
+OPL) are thicker than in peripheral retina. The inner nuclear and ganglion cell layers (INL, GCL) contain more cells, but of smaller 
+diameter. B. Peripheral retina is thinner overall than central retina, though cells are larger in diameter, most layers are thin. The outer 
+nuclear layer (ONL) is densely populated with rods. OLM, outer limiting membrane; ILM, inner limiting membrane.
+
+7. Degenerative diseases of the human retina
+
+The human retina is a delicate organization of neurons, glia and nourishing blood vessels. In some eye diseases, 
+the retina becomes damaged or compromised, and degenerative changes set in that eventually lead to serious 
+damage to the nerve cells that carry the vital messages about the visual image to the brain. We indicate four 
+different conditions where the retina is diseased and blindness may be the end result.
+
+Age related macular degeneration is a common retinal problem of the aging eye and a leading cause of blindness 
+in the world. The macular area and fovea become compromised due to the pigment epithelium behind the retina 
+degenerating and forming drusen (white spots, Fig. 22) and allowing leakage of fluid behind the fovea. The cones 
+of the fovea die causing central visual loss so we cannot read or see fine detail.
+
+Glaucoma (Fig. 23) is also a common problem in aging, where the pressure within the eye becomes elevated. The
+pressure rises because the anterior chamber of the eye cannot exchange fluid properly by the normal aqueous 
+outflow methods. The pressure within the vitreous chamber rises and compromises the blood vessels of the optic 
+nerve head and eventually the axons of the ganglion cells so that these vital cells die. Treatment to reduce the 
+intraocular pressure is essential in glaucoma.
+
+Retinits pigmentosa (Fig. 24) is a nasty hereditary disease of the retina for which there is no cure at present. It 
+comes in many forms and consists of large numbers of genetic mutations presently being analyzed. Most of the 
+faulty genes that have been discovered concern the rod photoreceptors. The rods of the peripheral retina begin to 
+degenerate in early stages of the disease. Patients become night blind gradually as more and more of the 
+peripheral retina (where the rods reside) becomes damaged. Eventually patients are reduced to tunnel vision 
+with only the fovea spared the disease process. Characteristic pathology is the occurrence of black pigment in 
+the peripheral retina and thinned blood vessels at the optic nerve head (Fig. 24).
+
+Diabetic retinopathy is a side effect of diabetes that affects the retina and can cause blindness (Fig. 25). The vital 
+nourishing blood vessels of the eye become compromised, distorted and multiply in uncontrollable ways. Laser
+
+12
+Webvision
+
+Figure 11. Vertical view of Golgi-stained Müller glial cells. OLM, outer limiting membrane; ILM, inner limiting membrane.
+
+treatment for stopping blood vessel proliferation and leakage of fluid into the retina, is the commonest treatment 
+at present.
+
+About the Author
+
+The biosketch for Helga Kolb appears in the Webvision section About the Editors.
+
+Simple Anatomy of the Retina
+13
+
+Figure 12. Foveal regions of primate retinas. A. Vertical section of the human fovea from Yamada, 1969 (11). os, outer segments; is, 
+inner segments; OLM, outer limiting membrane; ONL, outer nuclear layer; H, Henle fibers; INL, inner nuclear layer; ILM, inner 
+limiting membrane; G, ganglion cells. B. Vertical section of monkey fovea from Hageman and Johnson, 1991 (12). RPE. Retinal 
+pigment epithelium; Henle f.l., Henle fiber layer; OPL, outer plexiform layer; INL, inner nuclear layer; IPL, inner plexiform layer; GCL, 
+ganglion cell layer.
+
+Figure 13. Tangential section through the human fovea. Reproduced from Ahnelt, Kolb and Pflug (1987) (13).
+
+14
+Webvision
+
+Figure 14. Ophthalmoscopic appearance of the retina to show the macula lutea (yellow area around the fovea).
+
+Figure 15. Vertical section through the monkey fovea to show the distribution of the macula lutea (black). From Snodderly et al., 1984 
+(6).
+
+Simple Anatomy of the Retina
+15
+
+Figure 16. Appearance of the cone mosaic in the fovea as seen with (above) and without (below) the macula lutea screening pigment. 
+The image is courtesy of Abner Lall (Howard University) and Richard Cone (Johns Hopkins University).
+
+16
+Webvision
+
+Figure 17. Fundus photograph showing fluorescein imaging of the major arteries and veins in a normal human right eye retina. The
+vessels emerge from the optic nerve head and run in a radial fashion, curving toward and around the fovea (asterisk in photograph). 
+The image is courtesy of Isabel Pinilla, Spain.
+
+Figure 18. Microvasculature of the retina. A. Flatmount view of a rat retina stained with NADPH-diaphorase at the level of focus of a 
+major artery and arterioles. B. Flatmount view of a rat retina stained with NADPH-diaphorase at the level of focus of a major vein and 
+venules. The images are courtesy of Toby Holmes, Moran Eye Center.
+
+Simple Anatomy of the Retina
+17
+
+Figure 19. The macular vessels of the monkey eye form a ring around the avascular fovea (star). A, arteriole; V, venule. The illustration 
+is from Zhang, 1994 (8).
+
+18
+Webvision
+
+Figure 20. Diagram of the retinal vasculature around the fovea in the rhesus monkey derived from more than 80 microscope fields. The
+figure is from Snodderly et al., 1992 (9).
+
+Simple Anatomy of the Retina
+19
+
+Figure 21. Corrosion casts of the vasculature of the human eye. A. The three vascular layers in the choroid: outer arteries and veins 
+(red/blue arrow), medial arterioles and venules (red arrow), and inner capillary bed (yellow star). B. Cast of the upper back of the 
+human eye with the sclera removed. The vortex veins (VV) collect the blood from the equator of the eye and merge with the 
+ophthalmic vein (OV). The illustrations are from From Zhang 1994 (8).
+
+20
+Webvision
+
+Figure 22. A view of the fundus of the eye and of the retina in a patient who has age-related macular degeneration.
+
+Simple Anatomy of the Retina
+21
+
+Figure 23. A view of the fundus of the eye and of the retina in a patient who has advanced glaucoma.
+
+22
+Webvision
+
+Figure 24. A view of the fundus of the eye and of the retina in a patient who has retinitis pigmentosa.
+
+Simple Anatomy of the Retina
+23
+
+Figure 25. A view of the fundus of the eye and of the retina in a patient who has advanced diabetic retinopathy.
+
+References
+
+1.
+Polyak, S.L., The Retina1941, Chicago: University of Chicago.
+2.
+Kolb, H., The neural organization of the human retina., in Principles and practice of clinical electrophysiology 
+of vision, J.R. Heckenlively and G.B. Arden, Editors. 1991, Mosby Year Book: St. Louis. p. 25-52.
+3.
+Van Buren, J.M., The retinal ganglion cell layer : a physiological-anatomical correlation in man and primates of 
+the normal topographical anatomy of the retinal ganglion cell layer and its alterations with lesions of the visual 
+pathways1963, Springfield, Ill.: Charles C. Thomas. x, 143 p.
+4.
+Bone R.A., Landrum J.T., Tarsis S.L. Preliminary identification of the human macular pigment. . Vision Res. 
+1985;25(11):1531–5. PubMed PMID: 3832576.
+
+24
+Webvision
+
+5.
+Rodieck, R.W., The vertebrate retina; principles of structure and function. Series of books in biology. 1973, 
+San Francisco,: Freeman. x, 1044 p.
+6.
+Snodderly D.M., Auran J.D., Delori F.C. The macular pigment. II. Spatial distribution in primate retinas. . 
+Invest Ophthalmol Vis Sci. 1984;25(6):674–85. PubMed PMID: 6724837.
+7.
+Henkind, P., R.I. Hansen, and J. Szalay, Ocular circulation, in Physiology of the human eye and visual system, 
+R.E. Records, Editor. 1979, Harper & Row: Hagerstown, Md. p. 98-155.
+8.
+Zhang H.R. Scanning electron-microscopic study of corrosion casts on retinal and choroidal angioarchitecture 
+in man and animals. . Progress in Retinal and Eye Research. 1994;13(1):243–270.
+9.
+Snodderly D.M., Weinhaus R.S., Choi J.C. Neural-vascular relationships in central retina of macaque monkeys 
+(Macaca fascicularis). . J Neurosci. 1992;12(4):1169–93. PubMed PMID: 1556592.
+10. Hayreh S.S. Segmental nature of the choroidal vasculature. . Br J Ophthalmol. 1975;59(11):631–48. PubMed 
+PMID: 812547.
+11. Yamada E. Some structural features of the fovea centralis in the human retina. . Arch Ophthalmol. 
+1969;82(2):151–9. PubMed PMID: 4183671.
+12. Hageman, G.S. and L.V. Johnson, The photoreceptor-retinal pigmented epithelium interface., in Principles and
+
+practice of clinical electrophysiology of vision, J.R. Heckenlively and G.B. Arden, Editors. 1991, Mosby Year 
+Book: St. Louis. p. 53-68.
+13. Ahnelt P.K., Kolb H., Pflug R. Identification of a subtype of cone photoreceptor, likely to be blue sensitive, in the
+
+human retina. . J Comp Neurol. 1987;255(1):18–34. PubMed PMID: 2434534.
+
+License
+
+All copyright for chapters belongs to the individual authors who created them. However, for non-commercial, academic 
+purposes, images and content from the chapters portion of Webvision may be used with a non-exclusive rights under a 
+Attribution, Noncommercial 4.0 International (CC BY-NC) Creative Commons license. Cite Webvision, http://
+webvision.med.utah.edu/ as the source. Commercial applications need to obtain license permission from the 
+administrator of Webvision and are generally declined unless the copyright owner can/wants to donate or license 
+material. Use online should be accompanied by a link back to the original source of the material. All imagery or content 
+associated with blog posts belong to the authors of said posts, except where otherwise noted.

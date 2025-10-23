@@ -1,0 +1,908 @@
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-.
+
+Myopia
+
+Praveen Subudhi; Prateek Agarwal.
+
+Author Information and Affiliations
+
+Last Update: March 31, 2023.
+
+Continuing Education Activity
+
+Myopia is the most common clinical condition seen in our clinical practice. It is associated with various co-morbidities of the
+eye, which need to be evaluated at each visit. Management of myopia has witnessed revolutionary changes for two decades.
+Corneal topography has made our understanding of cornea more lucid and its contribution to the progression of myopia.
+Surgical evolution with lasers and phakic intraocular lenses has enabled patients to see spectacle-free, even with high refractive
+errors. This article comprehensively covers all the aspects of myopia, starting from clinical evaluation to the pros and cons of
+surgical treatment.
+
+Objectives:
+
+Review the management of myopia.
+
+Describe various surgical techniques to provide spectacle-free vision.
+
+Outline the posterior segment evaluation in cases of high myopia.
+
+Explain various clinical tools for the evaluation of myopia.
+
+Access free multiple choice questions on this topic.
+
+Introduction
+
+Myopia, or nearsightedness, is the most common refractive error in children and young adults (see Image. Myopia or Near
+Sightedness).[1] Myopia has increasingly become a concern due to the unawareness and stigma among parents.[2] Furthermore,
+the COVID-19 pandemic has added to the previous woes. The prolonged use of digital screens among children has increased the
+incidence of myopia and accelerated its progression.[3] Indeed, the incidence and prevalence of myopia have increased
+considerably.
+
+Etiology
+
+Children have smaller axial lengths than adults. The emmetropization process starts as early as two years of age, gradually
+progresses to myopia, and eventually develops into emmetropia by 14 years. Hyperopia occurs when the axial length of the eye
+at birth is 18 mm, which increases to 23 mm by the age of 14 years, resulting in a myopic shift of 15 D. However, consecutive
+corneal flattening and lens thinning compensate for this myopic shift, leading to emmetropia.[4]
+
+Conversely, children predisposed to myopia have a large axial length at birth, which supersedes the emmetropization process,
+resulting in rapid progression to myopia during childhood. However, the progression slows during young adulthood and plateaus
+by the age of 18 years. However, the progression of myopia continues until the age of 25 years in a few individuals. After 25
+years of age, any progression can be attributed to lens thickening, resulting in a myopic shift.
+
+Epidemiology
+
+The prevalence of myopia in children aged 5–17 years varies globally and is the highest in Asians (18.5%), followed by
+Hispanics (13.2%), African Americans (6.6%), and Caucasians (4.4%).[5] A study reported 20 to 30% prevalence in children
+aged 6 to 7 years in Taiwan and Singapore and up to 84% in high school students in Taiwan.[6][7][8]
+
+Investigators in China found an increasing prevalence, ranging from 5.7% in children aged 5 years to 78.1% in those aged 15
+years.[9] Furthermore, the prevalence is 49.7% and 37.2% in children aged 10 to 15 years in Sweden and Greece, respectively.
+[10][11] The prevalence in adults aged >44 years in the United Kingdom is 49%.[12] The high prevalence in adults has been
+attributed to the presence of the lenticular component.
+
+Pathophysiology
+
+The classification of myopia is essential for its appropriate management.[13] Axial myopia is the most common type observed
+in clinical practice and is caused by an increase in the axial length of the globe. A 1-mm increase in the axial length correlates
+with a myopic shift of 3 D, also known as spherical myopia.
+
+Meridional myopia, also termed myopic astigmatism, is a condition in which myopia exhibits two foci along two axes. Regular
+myopic astigmatism is diagnosed when the meridional difference is along the vertical and horizontal axes. Oblique astigmatism
+occurs when the axis is not at 90 degrees or 180 degrees. The corneal curvature, not the axial length of the globe, mostly
+contributes to meridional myopia. Lenticular myopia is the third most critical component of the myopic classification.
+
+The crystalline lens undergoes substantial modifications with age, eventually contributing to changes in refractive error. Thus,
+the lenticular component should be examined for any myopic progression in adults. The severity of myopia is categorized as
+mild (between −0.5 and −4 D), moderate (between −4 and −8 D), and severe (> −8 D).
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+1/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+History and Physical
+
+Clinical Workup
+
+Parents’ complaints of a child reading books by placing them near their face, making frequent mistakes when taking class notes,
+being unable to watch television from a distance of 3 feet, and having repeated headaches raise suspicion of refractive errors.
+[14]
+
+Adolescent children report clear complaints of defective far vision. Complaints of headache and eye pain should be evaluated for
+refractive error as a cause. Patients with astigmatism complain of asthenopia, which manifests as headaches, diurnal variations in
+vision, occasional diplopia, and cervical pain. Frequent squinting or deviation of the globe with loss of near vision is a common
+symptom observed in clinical practice.[15]
+
+Medical History
+
+History-taking guides appropriate management. Inquiry regarding a family history of myopia, keratoconus, and retinal
+complications is essential.[16] Patients with myopia and a family history of retinal complications and keratoconus must be
+evaluated for retinal disorders and corneal abnormalities. A medical history of steroid use for allergic conjunctivitis in children is
+critical for diagnosing lenticular myopia or ciliary spasm following increased intraocular pressure.[17]
+
+Diffuse Torchlight Examination
+
+The Purkinje images of the cornea provide information regarding phobia and tropia. The Hirschberg reflex is typically observed
+slightly nasal to the center of the cornea in orthotropic eyes. Furthermore, in the Purkinje images of exotropic eyes, the
+Hirschberg reflex is significantly nasal to the center of the cornea.[18]
+
+All patients with myopia were evaluated for strabismus. Exotropia is commonly observed in patients with moderate-to-severe
+grades of myopia. In an observational study conducted by the Mayo Clinic, 90% of patients with intermittent exotropia had
+myopia.[19]
+
+Disparities in the size of the two globes provide information on anisometropia. Eyes with a high number of refractive errors tend
+to have larger globe diameters, which can be identified by the amount of scleral exposure.[20] In diffuse torchlight
+examinations, lower lid denting upon downgaze helps diagnose keratoconus.[21]
+
+Evaluation
+
+Retinoscopy
+
+Retinoscopy is a critical tool for measuring refractive errors.[22] The following two types of retinoscopy are used in clinical
+practice: spot and streak.[23] Illumination is provided by round and streak filaments in spot and streak retinoscopy, respectively.
+The latter is a vital method that should be mastered during residency. Retinoscopy is based on the Foucault principle.[24]
+
+In retinoscopy, light reflected from a mirror projected onto the eye moves according to the eye’s refractive state. Retinoscopy is
+used to locate the eye’s far point conjugated to the retina, with accommodation at rest. The refractive error of the eye is assessed
+using the neutralization technique, wherein the movement of the projected light from a preconceived distance into the eye ceases
+to move. The normal preconceived distance is 67 cm. In patients with myopia of >1.5 D, the reflected light from the retina
+moves opposite to the direction of movement of the projected light. To calculate the correct refractive error, power is added until
+the neutralization point is reached, and the working distance and cycloplegic correction are then subtracted (subtract 1.5 D for
+atropine and 1.0 D for homatropine).[25] See Image. Steps of Retinoscopy.
+
+In patients with myopia <1.5 D, the reflected light moves in the same direction as the streak light. Neutralization should be
+performed in both meridians perpendicular to each other and should be well documented. If the patient’s astigmatism is oblique,
+the streak light should be rotated until it falls along the line of the reflex. Dynamic retinoscopy can be performed during patient
+accommodation; however, it is highly inaccurate.
+
+Autorefractometer
+
+With the advent of autorefractometers, the diagnosis of myopia has become convenient and easy.[26] Autorefractometers have
+completely replaced retinoscopy in the routine screening of patients with myopia. The autorefractometers are based on the
+optometer principle described by Porter in 1759.[27][28]
+
+Autorefractometers objectively examine the degree of myopia with high accuracy.[29] They use infrared light with an 800 to
+900 nm wavelength projected into the eye, and the reflected light is used to calculate refractive errors. The latest machines use
+the Scheiner principle of the double-pinhole method, wherein light-emitting diodes are placed at the focal point of the objective
+lens. Because infrared light is invisible, it bypasses accommodation. Additionally, the targets used have a peripheral blur to relax
+the accommodation.[30]
+
+Currently used machines employ the fogging method to relax accommodation. However, the accurate assessment of refractive
+errors in children with hyperaccommodation requires cycloplegia. Multiple studies have reported that the efficacy of
+autorefractometers is comparable to that of retinoscopy. Dilated retinoscopy remains the gold standard for identifying refractive
+errors that do not properly correspond to subjective refraction.[31][32]
+
+Corneal Topography
+
+Corneal topography plays a critical role in the identification of myopia-related corneal disorders.[33] Patients with high myopic
+astigmatism require keratoconus forme fruste screening. Corneal topography is critical for identifying patients with myopia who
+are eligible for laser refractive surgery. Corneal analysis reveals the biomechanical integrity of the cornea, which helps surgeons
+plan for the appropriate management and provide spectacle-free vision. Topography is performed using various technologies;
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+2/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+however, Orbscan and Pentacam are considered more favorable. Orbscan is based on slit imaging technology, where 40 oblique
+slits of light are passed from either side, and the light reflected from the anterior and posterior corneal surfaces is analyzed.
+However, Orbscan 2 integrates two technologies, namely, Placido rings and slit images, to provide more comprehensive corneal
+information.[34]
+
+The mechanism of Orbscan 2 is similar to that of a camera taking a photograph from the top of an island; Orbscan 2 data are
+converted into a two-dimensional format through false color coding. Orbscan provides a quad map or four maps showing the
+anterior surface of the cornea (anterior float), the posterior surface of the cornea (posterior float), corneal thickness (pachymetric
+map), and corneal curvature (keratometric map). Additionally, the Orbscan instrument provides a middlebox consisting of
+average keratometric readings at the 3-mm and 5-mm zones of the cornea. Ten warning signs should be noted in the quad maps
+before performing any keratorefractive procedures. More than two red flags contraindicate any patient with myopia from
+undergoing laser refractive correction.
+
+With the advent of Schiempflug technology, Orbscan devices have become obsolete.[35] This technology combines a rotating
+camera (with slit lights rotating in a similar manner as the spokes of a wheel) for corneal analysis and a central static camera to
+provide information on pupil size and to fixate the eye during data capture. This is based on Schiempflug’s law: to obtain a
+higher depth of focus, the three planes should be moved, provided that the picture, objective, and film planes must cut each other
+in one line or one point of intersection. This technique provides information regarding not only the cornea but also the angle of
+the anterior chamber and its depth.
+
+The anterior chamber depth is critical for implanting a phakic intraocular lens (IOL) in candidates contraindicated for
+keratorefractive procedures. Moreover, in addition to the quad map, Pentacam has a Belin Ambrosio–enhanced ectasia display
+(BAD), which combines all information on the cornea into a single display. BAD compares the anterior and posterior curvature
+maps of the cornea with the maps generated by a computer, which are based on the peripheral curvature of the cornea (excluding
+the central 3 mm area) that is extrapolated to the center.[35] See Image. Belin Ambrosio Enhanced Ectasia Display.
+
+A significant difference between a patient’s cornea and the computer-generated cornea denotes a contraindication for laser
+refractive surgery. Similarly, a corneal thickness spatial profile and a percentage thickness increase in the cornea from the center
+to the periphery are created by the computer based on the pachymetric thickness from the center to the periphery; the profile line
+created should fall between three reference data lines. Additionally, a reference database is incorporated into the map by
+comparing the holistic information of the patient’s cornea with that of the normal population, which critically screens all patients
+with suspicious corneal abnormalities.[35]
+
+Slit-lamp Examination
+
+Evaluation of the eye using a slit lamp provides gross information regarding the corneal thickness, anterior chamber depth,
+iridocorneal angle, lenticular thickness, and optic disc and macula.[36] The oblique slit can be used to analyze the uniformity of
+the corneal thickness. Subtle thinning of the cornea can be identified using the oblique slit, mostly in the inferior quadrant, which
+should be correlated with the corneal topography to diagnose keratoconus. Thinning can occasionally be observed near the
+inferior limbus, which can correlate with a high amount of against-the-rule astigmatism noted in pellucid marginal degeneration.
+[37]
+
+The iridocorneal angle can be evaluated using the oblique slit in a preferably dark environment using corneal thickness as a
+reference. Gross evaluation of the central anterior chamber depth can be performed; however, Pentacam or optical biometers are
+necessary for quantification and screening. Lenticular assessment is the most critical component of slit-lamp examination.
+Progressive myopia in the older population may be caused by the cataractous transformation of the crystalline lens. Nuclear
+expansion of the crystalline lens helps unaided near vision in older patients, also termed “second sight.” Slit-lamp
+biomicroscopic evaluation of the posterior pole and optic disc can be performed using a 90-D fundoscopic lens, which is the
+most widely used lens in ophthalmic practice for easier evaluation of the posterior pole in undilated pupils.[38]
+
+Treatment / Management
+
+Treatment of Myopia
+
+Myopia treatment can be classified into non-surgical and surgical.
+
+Non-surgical Management
+
+Spectacle Correction
+
+Spectacle correction is the most widely used form of management in patients with myopia.[39] Concave lenses that shift the
+focus to the foveal level are used in spectacles. However, an appropriate prescription of lenses is essential for providing correct
+dynamics.[40]
+
+Additionally, a proper back vertex distance and centralization of the optics corresponding to the center of the pupil are vital for
+providing the best-corrected and clearest vision. Patients who are uncomfortable with their glasses beyond a period of 15 days
+should be evaluated for appropriate optical dispensing. Any error in the power of the lenses or the axis of the cylinder and the
+improper fitting of lenses can accentuate blurring and cause eye strain. Many advances have been made in materials available for
+optical lenses. With the advent of high-index materials such as polycarbonate, traditional materials used for lenses, including
+crown glass and CR39, have become obsolete.[41]
+
+These high-index glasses considerably reduce the weight of glasses, particularly those that correct high refractive errors.
+[42] However, dissatisfaction due to decreased light transmissibility, surface reflections, glare, and ghost images were reported
+by users. Hence, the concept of anti-reflectability came to the fore, which uses the concept of destructive interference. Here, a
+thin coating is applied over the surface, and its thickness is calculated based on the index wavelength of the glass (the
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+3/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+wavelength provides optimized refraction). The arc reflects light from its upper and lower surfaces, whose waves are
+synchronized in such a manner that they eventually nullify each other, producing zero reflection.[43]
+
+The detrimental effect of blue light on the retinal photoreceptors and retinal pigment epithelium is another concern. Newer
+optical aids or spectacles have spectral filters that eliminate harmful blue light. With these blue light–filtering spectacles, patients
+experience a reduction in digital eye strain and accommodative microfluctuation; however, some studies have reported these
+issues.[41]
+
+Contact Lenses
+
+Contact lenses have revolutionized the management of myopia.[44] The contact lens is dependent on oxygen permeability,
+wetting ability, water content, thickness, and mechanical properties. Contact lenses can be developed using materials with high
+malleability and durability. Previously, contact lenses were made of polymethylmethacrylate; however, their use was limited
+owing to their non-flexibility and poor oxygen permeability. Contact lenses are broadly classified into rigid gas-permeable
+(RGP) and soft contact lenses. RGP lenses are composed of a hydrophilic comonomer, which is expensive and may develop
+scratches on the lens surface.[45]
+
+Soft contact lenses are made of HEMA hydrogel, silicone hydrogel, and polyvinyl alcohol. Contact lenses made of HEMA and
+silicone hydrogels have approximately 50% water content with high oxygen permeability and can be worn for 1 to 5 days.
+Although soft contact lenses have high water content owing to the presence of polyvinyl alcohol, they have relatively low
+oxygen permeability; thus, they should be removed before sleep. These lenses are popular and extensively used to provide
+spectacle-free vision in adolescents and young adults.
+
+The power of contact lenses is calculated based on that used for spectacle correction and the vertex factor. The vertex factor is
+the power to be added to correct the back vertex distance. The correction factor is lower for eyes with fewer refractive errors and
+vice versa. The cylindrical power can be prescribed by ordering a toric contact lens. However, the cylindrical power can be
+nullified by adding the spherical equivalent of the cylinder (cylindrical power divided by 2) to the sphere, and the total spherical
+power can be prescribed after correcting for the back vertex distance.[46]
+
+However, all contact lenses are prone to complications, broadly classified as noninfectious or infectious.[47] Noninfectious
+complications are the most common, including contact lens-induced inflammation, hypoxia of the ocular surface, and
+aggravation of allergic conjunctivitis.[48] Contact lens-induced inflammation comprises a spectrum of clinical conditions that
+affect the conjunctiva and cornea. Mechanical irritation of the contact lens edge over the tarsal conjunctiva releases chemotactic
+factors, which eventually lead to substantial local or general papillary hyperplasia.[49]
+
+The cornea is considerably affected by the overwearing of contact lenses, resulting in corneal hypoxia and blurred vision, which
+subsides after lens removal. Moreover, lenses produce infiltrates ranging from a single asymptomatic infiltrate to diffuse
+infiltrates. These infiltrates may be infectious or noninfectious. Infectious corneal ulcers are mostly caused by gram-negative
+bacteria, particularly Pseudomonas, and free-water parasites, such as acanthamoeba.[50] Hence, adequate contact lens hygiene
+should be maintained to prevent complications.
+
+Surgical Management
+
+Surgical management of myopia has advanced rapidly in the past two decades. It can be broadly classified into laser vision
+correction at the corneal level and lenticular correction at the crystalline lens level.
+
+Laser Refractive Correction or Laser Vision Correction
+
+Laser vision correction is the surgical correction of refractive errors by remodeling the corneal surface using lasers. This
+procedure involves using an excimer laser, which is essentially an excited dimer composed of argon fluoride with a wavelength
+of 193 nm.[51] These are surface lasers that fall in the ultraviolet light wavelength range and cannot penetrate deeply. The
+concept of laser vision correction is based on the fact that 80% of light refraction occurs over the corneal surface; thus, altering
+the corneal surface can change the pattern of refraction.[52]
+
+As the cornea has a prolate shape, the corneal periphery is flat, and its center is relatively steep. The aspheric shape of the cornea
+reduces a considerable number of spherical and chromatic aberrations. With central flattening post-laser correction, the cornea
+assumes an oblate shape, which accentuates aberrations and deteriorates vision quality. Excimer laser platforms have changed
+substantially over the past two decades. Laser delivery systems for excimer lasers are available in three patterns: broad beam,
+scanning slit, and flying spot. Broad-beam and scanning-slit lasers have become obsolete and unavailable on new platforms. The
+latest versions of laser machines have a flying-spot delivery system, which precisely and rapidly delivers lasers.[53][54]
+
+Lasers can be delivered to the cornea with or without flap creation. Flap surgeries are termed laser-assisted in situ keratomileusis
+(LASIK), wherein a microkeratome or femtosecond laser is used to create a corneal flap with thicknesses ranging from 90 to 160
+µm.[55][56] Next, the flap is elevated, and depending on the amount of refractive error, photoablation of the corneal stroma is
+performed using excimer lasers; the minimum residual stromal bed is maintained at 250 µm. After ablation, the flap is placed
+over the bed, and the procedure is completed. See Image. Steps of LASIK Eye Surgery.
+
+Flapless surgery is termed photorefractive keratectomy (PRK). The cornea is de-epithelialized using 20% alcohol or excimer
+lasers. Photoablation is performed over the Bowman membrane, followed by the application of 0.02% mitomycin-C for 30 s to
+prevent postsurgical corneal haze. After the procedure, a contact lens is placed to facilitate the growth of the corneal epithelium.
+Once epithelialization is complete, the contact lens is removed. PRK is considered the most favorable technique for maintaining
+the biomechanical integrity of the cornea.[56]
+
+Femtosecond lasers are the most novel treatment for myopia.[57] Femtosecond lasers exhibit the highest precision for cutting
+corneal tissues, thus providing the desired plane of separation. These lasers can be used to create a flap, following which excimer
+lasers can be used for ablation.[58] Alternatively, femtosecond lasers can create a lenticule within the stroma that can be
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+4/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+extracted through a small opening on the corneal surface. This lenticular extraction technique is termed small-incision lenticular
+extraction.[59]
+
+These lasers can be utilized to correct myopia from 0.5 D to 14 D if the cornea is stable and biomechanically strong. Because
+these lasers weaken the cornea, eyes with a subclinically weak architecture can experience adverse effects, including conical
+protrusion and poor vision.[60] PRK is considered the most favorable method for maintaining the biomechanical integrity and
+anatomy of the cornea. LASIK is considered the most biomechanical weakening procedure and should thus be performed with
+caution.[61][58]
+
+Various intraoperative and postoperative complications may occur. Intraoperative complications are mostly related to the flap
+observed in LASIK, including incomplete and free flaps and flaps with a buttonhole. Postoperative complications can be
+classified into early- and late-stage complications. Early postoperative complications include diffuse lamellar keratitis, epithelial
+ingrowth leading to the sterile melting of the flap, and sterile stromal infiltrates. Late postoperative complications included
+myopic regression, post-PRK haze, and post-LASIK ectasia.[62][63]
+
+Lenticular Correction of Myopia
+
+This procedure involves implanting a biocompatible IOL or replacing the lens. Replacement of the crystalline lens with an
+artificial IOL results in a high risk of posterior-segment complications. Hence, a phakic IOL can be implemented in patients in
+whom keratorefractive procedures are contraindicated.
+
+Phakic Intraocular Lens
+
+Phakic IOLs can be classified according to the implantation position, that is, the anterior or posterior chambers.[64] The phakic
+IOL in the anterior chamber is angle-supported and implanted in front of the iris; however, this lens leads to endothelial
+decompensation and increases intraocular pressure due to the occlusion of the outflow system.[65][66] See Image. Phakic
+Intraocular Lens.
+
+This lens eventually became obsolete owing to its high complication rates. With the advent of the posterior chamber phakic IOL,
+other lenses have been introduced on the market. The posterior chamber phakic IOL, which is placed behind the iris and
+supported at the sulcus, has been considered the most successful technique in recent times.[67] This lens has been developed by
+various companies globally and has shown equivalent efficacy and safety. However, the long-term results depend on an accurate
+preoperative assessment. The preoperative evaluation includes the evaluation of subjective refraction, white-to-white (W–W)
+diameter, and anterior chamber depth.[67]
+
+The W–W diameter is typically measured using a digital caliper. The accuracy of digital calipers far outweighs that of optical
+biometry.[68] The W–W diameter correlates with the appropriate size of the phakic IOL that remains stable in the sulcus,
+preventing any postoperative rotation or displacement. The undersized or small diameter of the phakic IOL may cause rotation
+and displacement of the lenses, leading to the loss of the target.[68]
+
+These lenses have an optical zone of 6 mm; hence, any form of misalignment may lead to the loss of vision and create new
+aberrations, causing optical discomfort. Thus, the W–W diameter is the most critical component of postoperative vision.[69] In
+addition to the W-W diameter, the anterior chamber depth plays a crucial role in selecting patients eligible for this procedure.
+The minimum anterior chamber depth should be 2.8 mm, which is calculated from the corneal endothelium to the anterior
+surface of the crystalline lens.[66]
+
+The proper sizing of the phakic IOL is critical for providing an adequate vault over the crystalline lens. An oversized or larger
+diameter of the phakic IOL may produce larger vaults, causing the shallowing of the anterior chamber, eventually leading to
+angle closure and excessive rubbing of the posterior surface of the iris, resulting in pigment dispersion.[70]
+
+The power of the phakic IOL is determined by the subjective refraction of patients. It can be spherical or toric, depending on the
+refractive status. Certain lenses are manufactured so that they can be implanted in the horizontal meridian irrespective of their
+toricity.[68]
+
+The basic structure of the posterior chamber phakic IOL is uniform across all companies; however, two types of lenses are
+available: lenses with or without a central hole. These lenses have plate haptics and a central optical zone of 6 mm with a vault
+or elevation to prevent contact with the crystalline lens. Multiple holes exist in these lenses, which facilitate aqueous flow from
+the posterior chamber to the anterior chamber. The presence of a central hole determines whether a peripheral iris opening
+should be performed. Lenses without a central hole require peripheral iris opening to prevent any postoperative increase in
+intraocular pressure.[68][70]
+
+Complications of phakic IOL implantation include cataract formation, pigment dispersion, loss of pupillary sphincters, angle-
+closure glaucoma, and corneal decompensation. Cataract formation and pupillary sphincter damage are observed with the
+posterior chamber IOL, whereas corneal decompensation is observed with the anterior chamber phakic IOL.[71]
+
+Lenticular Replacement
+
+Lenticular replacement can be considered in patients with poor keratorefractive dynamics and a low anterior chamber depth.
+[72] The lens can be replaced with an adequately powered posterior chamber IOL in such cases. This procedure is performed
+using standard phacoemulsification. The power of the IOL is determined using standard optical biometry, which works on laser
+interferometry. Three types of IOLs are available: monofocal, bifocal, and trifocal. Trifocal lenses are the most advanced form of
+intracranial lenses that improve all forms of vision, enabling the patient to become free of spectacles.[73]
+
+Lenticular replacement is associated with a high incidence of postoperative complications. Posterior-segment complications,
+such as retinal detachment, are the most significant limitations of this procedure. With the removal of the crystalline lens, the iris
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+5/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+lens diaphragm moves forward, pulling the anterior retina and eventually opening the stretched peripheral retina. Retinal
+detachment is a severe complication that can lead to permanent vision loss.[74][75]
+
+Differential Diagnosis
+
+Pseudomyopia is an essential classification of myopia caused by ciliary spasms that prevent relaxation of the zonules and
+flattening of the crystalline lens when the point of fixation is far.[76]
+
+Complications
+
+Posterior Segment Lesions [77]
+
+The posterior segment plays a critical role in successful management. Posterior-segment lesions can be classified as central or
+peripheral retinal lesions. The basic goal of identifying lesions is to prevent sudden loss of vision following retinal detachment.
+A high refractive error and longer axial length are the most vital risk factors for posterior-segment lesions. The retina of patients
+with myopia stretches posteriorly due to an increase in the axial length, eventually causing peripheral retinal degeneration and
+thinning. However, certain conditions should be observed and treated to prevent retinal detachment.
+
+Tears and holes in the peripheral retina are critical components of the clinical workup of patients with myopia and should be
+observed periodically. A horseshoe tear and percolated holes should be barraged using retinal lasers to prevent future mishaps.
+Atrophic holes can be periodically observed during the development of subclinical retinal detachment. Lattice and pigmentary
+degeneration are commonly observed in patients with myopia. These lesions do not require treatment in the presence of super-
+filled holes or tears.[78]
+
+The central retina is critical for visual acuity in patients. Anatomical and functional abnormalities are observed in patients with
+pathological myopia. Posterior staphyloma, choroidal neovascular membrane (CNVM), and foveal retinoschisis are the three
+critical lesions observed in patients with myopia >10 D. Staphyloma can be observed in the macula or peripapillary region.
+Posterior extension of the sclera prevents macular support, leading to stretch maculopathy, which may require scleral
+reinforcement. CNVMs should be observed, and any form of progression may require anti-vascular endothelial growth factor
+therapy.[79]
+
+A macular hole is a rare complication following a history of trivial trauma or traction of the posterior hyaloid over the macula.
+
+Other lesions, such as a dome-shaped macula, breaks in Bruce’s membrane (lacquer cracks), tessellations, and peripapillary
+atrophy, are observed and do not require aggressive management.[79]
+
+Amblyopia
+
+Amblyopia is critical for the appropriate treatment of myopia. Patients with anisometropia are more likely to have amblyopia in
+eyes with a high refractive error, termed anisometropic amblyopia. Ametropic amblyopia is a condition in which patients’ vision
+does not improve to 6/6 or 20/20, even after best visual acuity correction.
+
+Pearls and Other Issues
+
+Myopia is the most common condition observed in clinical practice. Corneal topography is the most important investigation for
+all patients with myopia, as it provides extensive information about the cornea and anterior segment. A detailed evaluation of
+corneal biomechanics helps customize treatment strategies for individual patients.
+
+Refractive surgeries have revolutionized the management of myopia, providing spectacle-free vision and improving the field of
+vision. However, all patients with myopia should be optimally screened for posterior-segment pathology. Laser vision correction
+and phakic IOLs provide safe and effective visual outcomes; however, phacoemulsification using an IOL can cause many
+complications.
+
+Enhancing Healthcare Team Outcomes
+
+Management of myopia requires an interprofessional team of optometrists, paramedics, cornea surgeons, and retina specialists.
+The success lies in the accurate measurement of refractive errors by optometrists using various retinoscopy and auto-
+refractometers. Hence they need to be well-versed in the art of retinoscopy for faultless spotting of refractive errors.
+
+Trained paramedical staff with pertinent instrumentation dynamics knowledge are critical for analyzing various myopic causes.
+Anterior segment imaging is crucial for determining the structural anatomy of the cornea. Corneal specialists are essential for
+ruling out ectatic corneal disorders, the most critical contraindication for refractive surgeries. The team of myopic management
+is not complete without retinal specialists.
+
+Preventive management of peripheral retinal lesions is critical for the long-lasting success of myopic management. The timely
+intervention of peripheral retinal lesions utilizing green lasers by retinal surgeons significantly reduces the risk of retinal
+detachment.
+
+Review Questions
+
+Access free multiple choice questions on this topic.
+
+Click here for a simplified version.
+
+Comment on this article.
+
+Figure
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+6/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+Belin Ambrosio Enhanced Ectasia Display. This display combines elevation-based and
+pachymetric corneal evaluation in an all-inclusive exhibition. Ruby Eye Hospital
+
+Figure
+
+Myopia or Near Sightedness. Ruby Eye Hospital
+
+Figure
+
+Steps of Retinoscopy. Ruby Eye Hospital
+
+Figure
+
+Steps of LASIK Eye Surgery. Ruby Eye Hospital
+
+Figure
+
+Phakic Intraocular Lens. The image shows the intraoperative view (A) and the
+retroillumination view with a slit lamp (B). Contributed by P Subudhi, MD
+
+References
+
+1.
+
+Baird PN, Saw SM, Lanca C, Guggenheim JA, Smith Iii EL, Zhou X, Matsui KO, Wu PC, Sankaridurg P, Chia A, Rosman
+M, Lamoureux EL, Man R, He M. Myopia. Nat Rev Dis Primers. 2020 Dec 17;6(1):99. [PubMed: 33328468]
+Kaiti R, Pradhan A, Dahal HN, Shrestha P. Pattern and Prevalence of Refractive Error and Secondary Visual Impairment in
+Patients Attending a Tertiary Hospital in Dhulikhel, Nepal. Kathmandu Univ Med J (KUMJ). 2018 Apr-Jun;16(62):114-119.
+[PubMed: 30636750]
+Wong CW, Tsai A, Jonas JB, Ohno-Matsui K, Chen J, Ang M, Ting DSW. Digital Screen Time During the COVID-19
+Pandemic: Risk for a Further Myopia Boom? Am J Ophthalmol. 2021 Mar;223:333-337. [PMC free article: PMC7390728]
+[PubMed: 32738229]
+Saunders KJ, McCullough SJ. Normative data for emmetropic and myopic eye growth in childhood. Ophthalmic Physiol
+Opt. 2021 Nov;41(6):1382-1383. [PubMed: 34402539]
+Kleinstein RN, Jones LA, Hullett S, Kwon S, Lee RJ, Friedman NE, Manny RE, Mutti DO, Yu JA, Zadnik K., Collaborative
+Longitudinal Evaluation of Ethnicity and Refractive Error Study Group. Refractive error and ethnicity in children. Arch
+Ophthalmol. 2003 Aug;121(8):1141-7. [PubMed: 12912692]
+Ding BY, Shih YF, Lin LLK, Hsiao CK, Wang IJ. Myopia among schoolchildren in East Asia and Singapore. Surv
+Ophthalmol. 2017 Sep-Oct;62(5):677-697. [PubMed: 28359704]
+Vitale S, Sperduto RD, Ferris FL. Increased prevalence of myopia in the United States between 1971-1972 and 1999-2004.
+Arch Ophthalmol. 2009 Dec;127(12):1632-9. [PubMed: 20008719]
+Li M, Tan CS, Foo LL, Sugianto R, Toh JY, Sun CH, Yap F, Sabanayagam C, Chong FM, Saw SM. Dietary intake and
+associations with myopia in Singapore children. Ophthalmic Physiol Opt. 2022 Mar;42(2):319-326. [PubMed: 34862645]
+He X, Sankaridurg P, Xiong S, Li W, Naduvilath T, Lin S, Weng R, Lv M, Ma Y, Lu L, Wang J, Zhao R, Resnikoff S, Zhu J,
+Zou H, Xu X. Prevalence of myopia and high myopia, and the association with education: Shanghai Child and Adolescent
+Large-scale Eye Study (SCALE): a cross-sectional study. BMJ Open. 2021 Dec 23;11(12):e048450. [PMC free article:
+PMC8710858] [PubMed: 34949607]
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+O'Donoghue L, Kapetanankis VV, McClelland JF, Logan NS, Owen CG, Saunders KJ, Rudnicka AR. Risk Factors for
+Childhood Myopia: Findings From the NICER Study. Invest Ophthalmol Vis Sci. 2015 Feb 05;56(3):1524-30. [PubMed:
+25655799]
+Villarreal MG, Ohlsson J, Abrahamsson M, Sjöstrom A, Sjöstrand J. Myopisation: the refractive tendency in teenagers.
+Prevalence of myopia among young teenagers in Sweden. Acta Ophthalmol Scand. 2000 Apr;78(2):177-81. [PubMed:
+10794252]
+Attebo K, Ivers RQ, Mitchell P. Refractive errors in an older population: the Blue Mountains Eye Study. Ophthalmology.
+1999 Jun;106(6):1066-72. [PubMed: 10366072]
+Flitcroft DI, He M, Jonas JB, Jong M, Naidoo K, Ohno-Matsui K, Rahi J, Resnikoff S, Vitale S, Yannuzzi L. IMI - Defining
+and Classifying Myopia: A Proposed Set of Standards for Clinical and Epidemiologic Studies. Invest Ophthalmol Vis Sci.
+2019 Feb 28;60(3):M20-M30. [PMC free article: PMC6735818] [PubMed: 30817826]
+Gessesse SA, Teshome AW. Prevalence of myopia among secondary school students in Welkite town: South-Western
+Ethiopia. BMC Ophthalmol. 2020 May 04;20(1):176. [PMC free article: PMC7197133] [PubMed: 32366285]
+Maduka Okafor FC, Okoye OI, Eze BI. Myopia: a review of literature. Niger J Med. 2009 Apr-Jun;18(2):134-8. [PubMed:
+19630316]
+Alvarez-Peregrina CC, Sanchez-Tena MAMA, Martinez-Perez CC, Villa-Collar CC. Prevalence and Risk Factors of
+Myopia in Spain. J Ophthalmol. 2019;2019:3419576. [PMC free article: PMC6721398] [PubMed: 31531234]
+Yeter V, Koçak N, Eser-Ozturk H. Changes in corneal thickness, upper and lower tear film in seasonal allergic
+conjunctivitis by steroid treatment: anterior segment optical coherence tomography study. Int Ophthalmol. 2020
+Sep;40(9):2275-2281. [PubMed: 32409942]
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+7/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+18.
+
+Gellrich MM, Kandzia C. [Purkinje images in slit lamp videography : Video article]. Ophthalmologe. 2016 Sep;113(9):789-
+93. [PubMed: 27558688]
+Tang SM, Chan RY, Bin Lin S, Rong SS, Lau HH, Lau WW, Yip WW, Chen LJ, Ko ST, Yam JC. Refractive Errors and
+Concomitant Strabismus: A Systematic Review and Meta-analysis. Sci Rep. 2016 Oct 12;6:35177. [PMC free article:
+PMC5059633] [PubMed: 27731389]
+Smith EL, Hung LF, Arumugam B, Wensveen JM, Chino YM, Harwerth RS. Observations on the relationship between
+anisometropia, amblyopia and strabismus. Vision Res. 2017 May;134:26-42. [PMC free article: PMC5499529] [PubMed:
+28404522]
+Stephenson KAJ, Power B, Malata D, Quill B, Murphy CC, Power WJ. Management of Keratoconus in Down Syndrome
+and Other Intellectual Disability. Cornea. 2022 Apr 01;41(4):456-461. [PubMed: 35244626]
+Arnon R, Rozen-Knisbacher I, Yahalomi T, Stanescu N, Niazov Y, Goldberg D, Sharabi-Nov A, Mostovoy D. Rise of the
+Machines? Comparison of Cycloplegic Refraction Using Retinoscopy and the Retinomax K-Plus 5 in Children. J Pediatr
+Ophthalmol Strabismus. 2022 Nov-Dec;59(6):380-387. [PubMed: 35275776]
+Padhy D, Bharadwaj SR, Nayak S, Rath S, Das T. Does the Accuracy and Repeatability of Refractive Error Estimates
+Depend on the Measurement Principle of Autorefractors? Transl Vis Sci Technol. 2021 Jan;10(1):2. [PMC free article:
+PMC7794271] [PubMed: 33505769]
+Chaurasiya RK. Refractive changes during off-the-axis retinoscopy in myopia. Indian J Ophthalmol. 2022 Mar;70(3):779-
+781. [PMC free article: PMC9114560] [PubMed: 35225512]
+Liu X, Feng J, Wang L, Tong H, Chen W. Spot Refractive Screening With or Without Maximum Atropine Cycloplegia in
+Preschool Chinese Children. J Pediatr Ophthalmol Strabismus. 2021 May-Jun;58(3):146-153. [PubMed: 34039157]
+Karabulut M, Karabulut S, Karalezli A. Refractive outcomes of table-mounted and hand-held auto-refractometers in
+children: an observational cross-sectional study. BMC Ophthalmol. 2021 Dec 09;21(1):424. [PMC free article:
+PMC8656057] [PubMed: 34879852]
+Mirzajani A, Qasemi F, Asharlous A, Yekta A, Doostdar A, Khabazkhoob M, Hashemi H. Are the results of handheld auto-
+refractometer as valid as the result of table-mounted refractometer? J Curr Ophthalmol. 2019 Sep;31(3):305-311. [PMC
+free article: PMC6742606] [PubMed: 31528766]
+Domínguez-Vicent A, Al-Soboh L, Brautaset R, Venkataraman AP. Effect of Instrument Design and Technique on the
+Precision and Accuracy of Objective Refraction Measurement. J Clin Med. 2020 Sep 23;9(10) [PMC free article:
+PMC7597959] [PubMed: 32977411]
+Wan XH, Lin Z, Cai XG, Qiao LY, Yang XD, Wang NL, Liang YB. [Comparison between binocular, open-field auto
+ref/keratometer and conventional autorefractor]. Zhonghua Yan Ke Za Zhi. 2012 Jun;48(6):519-23. [PubMed: 22943807]
+Vargas V, Radner W, Allan BD, Reinstein DZ, Burkhard Dick H, Alió JL., Near vision and accommodation committee of
+the American-European Congress of Ophthalmology (AECOS). Methods for the study of near, intermediate vision, and
+accommodation: an overview of subjective and objective approaches. Surv Ophthalmol. 2019 Jan-Feb;64(1):90-100.
+[PubMed: 30189234]
+McKendrick AM, Brennan NA. Clinical evaluation of refractive techniques. J Am Optom Assoc. 1995 Dec;66(12):758-65.
+[PubMed: 8557954]
+Schittkowski M, Hucks-Sievers S, Krentz H, Guthoff R. [Accuracy of the autorefractor power refractor in clinical work--a
+comparative study]. Klin Monbl Augenheilkd. 2005 Dec;222(12):983-92. [PubMed: 16380885]
+Namkung S, Boyle AB, Li Y, Gokul A, McGhee C, Ziaei M. Repeatability and Agreement of Horizontal Corneal Diameter
+Measurements Between Scanning-Slit Topography, Dual Rotating Scheimpflug Camera With Placido Disc Tomography,
+Placido Disc Topography, and Optical Coherence Tomography. Cornea. 2022 Nov 01;41(11):1392-1397. [PubMed:
+34935660]
+Cairns G, McGhee CN. Orbscan computerized topography: attributes, applications, and limitations. J Cataract Refract Surg.
+2005 Jan;31(1):205-20. [PubMed: 15721715]
+Motlagh MN, Moshirfar M, Murri MS, Skanchy DF, Momeni-Moghaddam H, Ronquillo YC, Hoopes PC. Pentacam®
+Corneal Tomography for Screening of Refractive Surgery Candidates: A Review of the Literature, Part I. Med Hypothesis
+Discov Innov Ophthalmol. 2019 Fall;8(3):177-203. [PMC free article: PMC6778463] [PubMed: 31598520]
+Clover J. Slit-Lamp Biomicroscopy. Cornea. 2018 Jun;37 Suppl 1:S5-S6. [PubMed: 29734202]
+Martínez-Abad A, Piñero DP. Pellucid marginal degeneration: Detection, discrimination from other corneal ectatic
+disorders and progression. Cont Lens Anterior Eye. 2019 Aug;42(4):341-349. [PubMed: 30473322]
+Gellrich MM. A simple method for panretinal imaging with the slit lamp. Int Ophthalmol. 2016 Dec;36(6):775-780.
+[PubMed: 26879088]
+Goss DA. Effect of spectacle correction on the progression of myopia in children--a literature review. J Am Optom Assoc.
+1994 Feb;65(2):117-28. [PubMed: 8144839]
+Schiefer U, Kraus C, Baumbach P, Ungewiß J, Michels R. Refractive errors. Dtsch Arztebl Int. 2016 Oct 14;113(41):693-
+702. [PMC free article: PMC5143802] [PubMed: 27839543]
+Leung TW, Li RW, Kee CS. Blue-Light Filtering Spectacle Lenses: Optical and Clinical Performances. PLoS One.
+2017;12(1):e0169114. [PMC free article: PMC5207664] [PubMed: 28045969]
+Stephens GL, Polasky M. New options for aniseikonia correction: the use of high index materials. Optom Vis Sci. 1991
+Nov;68(11):899-906. [PubMed: 1766654]
+Paulson CA, Price JJ, Koch KW, Kim CG, Oh JH, Lin L, Subramanian AN, Zhang B, Amin J, Mayolet A, Kosik Williams
+C, Hart SD. Industrial-grade anti-reflection coatings with extreme scratch resistance. Opt Lett. 2019 Dec 15;44(24):5977-
+5980. [PubMed: 32628197]
+Sankaridurg P. Contact lenses to slow progression of myopia. Clin Exp Optom. 2017 Sep;100(5):432-437. [PubMed:
+28752898]
+Bhamra TS, Tighe BJ. Mechanical properties of contact lenses: The contribution of measurement techniques and clinical
+feedback to 50 years of materials development. Cont Lens Anterior Eye. 2017 Apr;40(2):70-81. [PubMed: 27884616]
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+8/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+46.
+
+Scanzera AC, Deeley M, Joslin C, McMahon TT, Shorter E. Contact Lens Prescribing Trends for Keratoconus at an
+Academic Medical Center: Increased Utilization of Scleral Lenses for Severe Disease. Eye Contact Lens. 2022 Feb
+01;48(2):58-62. [PMC free article: PMC8830690] [PubMed: 35058416]
+Lim CHL, Stapleton F, Mehta JS. Review of Contact Lens-Related Complications. Eye Contact Lens. 2018 Nov;44 Suppl
+2:S1-S10. [PubMed: 29373389]
+Covey M, Sweeney DF, Terry R, Sankaridurg PR, Holden BA. Hypoxic effects on the anterior eye of high-Dk soft contact
+lens wearers are negligible. Optom Vis Sci. 2001 Feb;78(2):95-9. [PubMed: 11265932]
+Chalmers RL, Wagner H, Mitchell GL, Lam DY, Kinoshita BT, Jansen ME, Richdale K, Sorbara L, McMahon TT. Age and
+other risk factors for corneal infiltrative and inflammatory events in young soft contact lens wearers from the Contact Lens
+Assessment in Youth (CLAY) study. Invest Ophthalmol Vis Sci. 2011 Aug 24;52(9):6690-6. [PubMed: 21527379]
+Sankaridurg PR, Vuppala N, Sreedharan A, Vadlamudi J, Rao GN. Gram negative bacteria and contact lens induced acute
+red eye. Indian J Ophthalmol. 1996 Mar;44(1):29-32. [PubMed: 8828303]
+Vinciguerra R, Borgia A, Tredici C, Vinciguerra P. Excimer laser tissue interactions in the cornea. Exp Eye Res. 2021
+May;206:108537. [PubMed: 33716013]
+Lu LW, Rocha-de-Lossada C, Rachwani-Anil R, Flikier S, Flikier D. The role of posterior corneal power in 21st century
+biometry: A review. J Fr Ophtalmol. 2021 Sep;44(7):1052-1058. [PubMed: 34148699]
+Mello GR, Rocha KM, Santhiago MR, Smadja D, Krueger RR. Applications of wavefront technology. J Cataract Refract
+Surg. 2012 Sep;38(9):1671-83. [PubMed: 22906449]
+Ehlke GL, Krueger RR. Laser Vision Correction in Treating Myopia. Asia Pac J Ophthalmol (Phila). 2016
+Nov/Dec;5(6):434-437. [PubMed: 27898448]
+Ambrósio R, Wilson S. LASIK vs LASEK vs PRK: advantages and indications. Semin Ophthalmol. 2003 Mar;18(1):2-10.
+[PubMed: 12759854]
+Fogla R, Luthra G, Chhabra A, Gupta K, Dalal R, Khamar P. Preferred practice patterns for photorefractive keratectomy
+surgery. Indian J Ophthalmol. 2020 Dec;68(12):2847-2855. [PMC free article: PMC7856967] [PubMed: 33229660]
+Bashir ZS, Ali MH, Anwar A, Ayub MH, Butt NH. Femto-lasik: The recent innovation in laser assisted refractive surgery. J
+Pak Med Assoc. 2017 Apr;67(4):609-615. [PubMed: 28420926]
+Lee JK, Chuck RS, Park CY. Femtosecond laser refractive surgery: small-incision lenticule extraction vs. femtosecond
+laser-assisted LASIK. Curr Opin Ophthalmol. 2015 Jul;26(4):260-4. [PubMed: 26058022]
+Wilson SE. Biology of keratorefractive surgery- PRK, PTK, LASIK, SMILE, inlays and other refractive procedures. Exp
+Eye Res. 2020 Sep;198:108136. [PMC free article: PMC7508965] [PubMed: 32653492]
+Jaycock PD, Lobo L, Ibrahim J, Tyrer J, Marshall J. Interferometric technique to measure biomechanical changes in the
+cornea induced by refractive surgery. J Cataract Refract Surg. 2005 Jan;31(1):175-84. [PubMed: 15721710]
+Kenia VP, Kenia RV, Pirdankar OH. Short term changes in corneal stress-strain index and other corneal biomechanical
+parameters post-laser in situ keratomileusis. Indian J Ophthalmol. 2021 Oct;69(10):2650-2656. [PMC free article:
+PMC8597531] [PubMed: 34571607]
+Tse SM, Farley ND, Tomasko KR, Amin SR. Intraoperative LASIK Complications. Int Ophthalmol Clin. 2016
+Spring;56(2):47-57. [PubMed: 26938337]
+Davis EA, Hardten DR, Lindstrom RL. LASIK complications. Int Ophthalmol Clin. 2000 Summer;40(3):67-75. [PubMed:
+10941647]
+Martínez-Plaza E, López-Miguel A, Holgueras A, Barraquer RI, Alió JL, Maldonado MJ. Phakic intraocular lenses: Recent
+advances and innovations. Arch Soc Esp Oftalmol (Engl Ed). 2020 Apr;95(4):178-187. [PubMed: 32156485]
+Alió JL, Abdelrahman AM, Javaloy J, Iradier MT, Ortuño V. Angle-supported anterior chamber phakic intraocular lens
+explantation causes and outcome. Ophthalmology. 2006 Dec;113(12):2213-20. [PubMed: 16996608]
+Pinto C, Monteiro T, Franqueira N, Faria-Correia F, Mendes J, Vaz F. Posterior chamber collamer phakic intraocular lens
+implantation: Comparison of efficacy and safety for low and moderate-to-high myopia. Eur J Ophthalmol. 2021 Apr
+22;:11206721211012861. [PubMed: 33887990]
+Subudhi P, Patro S, Agarwal P, Khan Z, Subudhi BNR, Mekap C, Padhi A. Safety and Efficacy of a New Posterior
+Chamber Phakic Intraocular Lens in Cases of High Myopia: Early Results. Clin Ophthalmol. 2020;14:3681-3689. [PMC
+free article: PMC7642691] [PubMed: 33162752]
+Yildirim TM, Khoramnia R, Son HS, Mayer CS, Łabuz G, Munro DJ, Auffarth GU. Reasons for explantation of phakic
+intraocular lenses and associated perioperative complications: cross-sectional explant registry analysis. BMC Ophthalmol.
+2021 Feb 12;21(1):80. [PMC free article: PMC7879667] [PubMed: 33579238]
+Subudhi P, Patro S, Khan Z, Subudhi BNR, Sitaram S. Refractive outcomes of implantation of an implantable phakic
+copolymer lens with peripheral holes in the intraocular posterior chamber in moderate to high myopia patients: a single-
+surgeon series. Clin Ophthalmol. 2019;13:1887-1894. [PMC free article: PMC6765325] [PubMed: 31576104]
+Huang D, Schallhorn SC, Sugar A, Farjo AA, Majmudar PA, Trattler WB, Tanzer DJ. Phakic intraocular lens implantation
+for the correction of myopia: a report by the American Academy of Ophthalmology. Ophthalmology. 2009
+Nov;116(11):2244-58. [PubMed: 19883852]
+Fairaq R, Almutlak M, Almazyad E, Badawi AH, Ahad MA. Outcomes and complications of implantable collamer lens for
+mild to advance keratoconus. Int Ophthalmol. 2021 Jul;41(7):2609-2618. [PubMed: 33772698]
+Yao Y, Lu Q, Wei L, Cheng K, Lu Y, Zhu X. Efficacy and complications of cataract surgery in high myopia. J Cataract
+Refract Surg. 2021 Nov 01;47(11):1473-1480. [PubMed: 33929806]
+Chong EW, Mehta JS. High myopia and cataract surgery. Curr Opin Ophthalmol. 2016 Jan;27(1):45-50. [PubMed:
+26569522]
+Iusef IuN, Iusef SIu, Reznikova EV, Vvedenskiĭ AS. [Cataract surgery in patients with high myopia]. Vestn Oftalmol. 2005
+Nov-Dec;121(6):47-9. [PubMed: 16405068]
+Lam JK, Chan TC, Ng AL, Chow VW, Wong VW, Jhanji V. Outcomes of cataract operations in extreme high axial myopia.
+Graefes Arch Clin Exp Ophthalmol. 2016 Sep;254(9):1811-7. [PubMed: 27313161]
+
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+
+52.
+
+53.
+
+54.
+
+55.
+
+56.
+
+57.
+
+58.
+
+59.
+
+60.
+
+61.
+
+62.
+
+63.
+
+64.
+
+65.
+
+66.
+
+67.
+
+68.
+
+69.
+
+70.
+
+71.
+
+72.
+
+73.
+
+74.
+
+75.
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+9/10
+
+25. 9. 27. 오후 8:59
+Myopia - StatPearls - NCBI Bookshelf
+
+76.
+
+Khalid K, Padda J, Pokhriyal S, Hitawala G, Khan MS, Upadhyay P, Cooper AC, Jean-Charles G. Pseudomyopia and Its
+Association With Anxiety. Cureus. 2021 Aug;13(8):e17411. [PMC free article: PMC8459808] [PubMed: 34589322]
+Ohno-Matsui K, Lai TY, Lai CC, Cheung CM. Updates of pathologic myopia. Prog Retin Eye Res. 2016 May;52:156-87.
+[PubMed: 26769165]
+Shukla M, Ahuja OP. Peripheral retina in myopia. Indian J Ophthalmol. 1983 Nov-Dec;31(6):719-22. [PubMed: 6676251]
+Kumar A, Chawla R, Kumawat D, Pillay G. Insight into high myopia and the macula. Indian J Ophthalmol. 2017
+Feb;65(2):85-91. [PMC free article: PMC5381305] [PubMed: 28345561]
+
+77.
+
+78.
+79.
+
+Disclosure: Praveen Subudhi declares no relevant financial relationships with ineligible companies.
+
+Disclosure: Prateek Agarwal declares no relevant financial relationships with ineligible companies.
+
+Copyright © 2025, StatPearls Publishing LLC.
+
+This book is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) (
+
+http://creativecommons.org/licenses/by-nc-nd/4.0/ ), which permits others to distribute the work, provided that the article is not altered or used commercially. You are
+
+not required to obtain permission to distribute this article, provided that you credit the author and journal.
+
+Bookshelf ID: NBK580529
+PMID: 35593836
+
+https://www.ncbi.nlm.nih.gov/books/NBK580529/
+10/10

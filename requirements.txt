@@ -11,3 +11,8 @@ flask-caching
 redis
 google-genai
 numpy
+PyMuPDF
+pdfminer.six
+pytesseract
+Pillow
+tqdm

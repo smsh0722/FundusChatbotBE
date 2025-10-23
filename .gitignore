@@ -29,3 +29,6 @@ static/
 
 # Personal folders (예: client 코드 제외 시)
 client/
+
+# data 
+*.pdf
